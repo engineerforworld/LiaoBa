@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CallEngine_Agora">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CallLib/libs/CallEngine_Agora.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

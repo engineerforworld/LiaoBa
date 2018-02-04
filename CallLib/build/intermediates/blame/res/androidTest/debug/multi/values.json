@@ -1,0 +1,790 @@
+[
+    {
+        "outputFile": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 68,
+                    "endOffset": 119
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 68,
+                        "endOffset": 119
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 124,
+                    "endColumn": 62,
+                    "endOffset": 182
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 124,
+                        "endColumn": 62,
+                        "endOffset": 182
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 187,
+                    "endColumn": 57,
+                    "endOffset": 240
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 187,
+                        "endColumn": 57,
+                        "endOffset": 240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 245,
+                    "endColumn": 73,
+                    "endOffset": 314
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 245,
+                        "endColumn": 73,
+                        "endOffset": 314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1245,
+                    "endColumn": 69,
+                    "endOffset": 1310
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1245,
+                        "endColumn": 69,
+                        "endOffset": 1310
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1315,
+                    "endColumn": 67,
+                    "endOffset": 1378
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1315,
+                        "endColumn": 67,
+                        "endOffset": 1378
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1383,
+                    "endColumn": 71,
+                    "endOffset": 1450
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1383,
+                        "endColumn": 71,
+                        "endOffset": 1450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1455,
+                    "endColumn": 69,
+                    "endOffset": 1520
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1455,
+                        "endColumn": 69,
+                        "endOffset": 1520
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1525,
+                    "endColumn": 60,
+                    "endOffset": 1581
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1525,
+                        "endColumn": 60,
+                        "endOffset": 1581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1586,
+                    "endColumn": 60,
+                    "endOffset": 1642
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1586,
+                        "endColumn": 60,
+                        "endOffset": 1642
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1647,
+                    "endColumn": 60,
+                    "endOffset": 1703
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1647,
+                        "endColumn": 60,
+                        "endOffset": 1703
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1708,
+                    "endColumn": 61,
+                    "endOffset": 1765
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1708,
+                        "endColumn": 61,
+                        "endOffset": 1765
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1770,
+                    "endColumn": 63,
+                    "endOffset": 1829
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1770,
+                        "endColumn": 63,
+                        "endOffset": 1829
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1834,
+                    "endColumn": 61,
+                    "endOffset": 1891
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1834,
+                        "endColumn": 61,
+                        "endOffset": 1891
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1896,
+                    "endColumn": 60,
+                    "endOffset": 1952
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1896,
+                        "endColumn": 60,
+                        "endOffset": 1952
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1957,
+                    "endColumn": 67,
+                    "endOffset": 2020
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1957,
+                        "endColumn": 67,
+                        "endOffset": 2020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2025,
+                    "endColumn": 99,
+                    "endOffset": 2120
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 2025,
+                        "endColumn": 99,
+                        "endOffset": 2120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2125,
+                    "endColumn": 59,
+                    "endOffset": 2180
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2125,
+                        "endColumn": 59,
+                        "endOffset": 2180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2185,
+                    "endColumn": 65,
+                    "endOffset": 2246
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 2185,
+                        "endColumn": 65,
+                        "endOffset": 2246
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2251,
+                    "endColumn": 72,
+                    "endOffset": 2319
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2251,
+                        "endColumn": 72,
+                        "endOffset": 2319
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2324,
+                    "endColumn": 68,
+                    "endOffset": 2388
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2324,
+                        "endColumn": 68,
+                        "endOffset": 2388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2393,
+                    "endColumn": 56,
+                    "endOffset": 2445
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 2393,
+                        "endColumn": 56,
+                        "endOffset": 2445
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2450,
+                    "endColumn": 51,
+                    "endOffset": 2497
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 2450,
+                        "endColumn": 51,
+                        "endOffset": 2497
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2502,
+                    "endColumn": 61,
+                    "endOffset": 2559
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2502,
+                        "endColumn": 61,
+                        "endOffset": 2559
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2564,
+                    "endColumn": 71,
+                    "endOffset": 2631
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2564,
+                        "endColumn": 71,
+                        "endOffset": 2631
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2636,
+                    "endColumn": 75,
+                    "endOffset": 2707
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2636,
+                        "endColumn": 75,
+                        "endOffset": 2707
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2712,
+                    "endColumn": 34,
+                    "endOffset": 2742
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2712,
+                        "endColumn": 34,
+                        "endOffset": 2742
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2747,
+                    "endColumn": 34,
+                    "endOffset": 2777
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2747,
+                        "endColumn": 34,
+                        "endOffset": 2777
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2782,
+                    "endColumn": 49,
+                    "endOffset": 2827
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2782,
+                        "endColumn": 49,
+                        "endOffset": 2827
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2832,
+                    "endColumn": 33,
+                    "endOffset": 2861
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2832,
+                        "endColumn": 33,
+                        "endOffset": 2861
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2866,
+                    "endColumn": 34,
+                    "endOffset": 2896
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2866,
+                        "endColumn": 34,
+                        "endOffset": 2896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2901,
+                    "endColumn": 34,
+                    "endOffset": 2931
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2901,
+                        "endColumn": 34,
+                        "endOffset": 2931
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2936,
+                    "endColumn": 69,
+                    "endOffset": 3001
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 2936,
+                        "endColumn": 69,
+                        "endOffset": 3001
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3006,
+                    "endColumn": 70,
+                    "endOffset": 3072
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 3006,
+                        "endColumn": 70,
+                        "endOffset": 3072
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3077,
+                    "endColumn": 116,
+                    "endOffset": 3189
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 3077,
+                        "endColumn": 116,
+                        "endOffset": 3189
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3194,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 3390
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3194,
+                        "endLine": 53,
+                        "endColumn": 12,
+                        "endOffset": 3390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3395,
+                    "endColumn": 109,
+                    "endOffset": 3500
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 3395,
+                        "endColumn": 109,
+                        "endOffset": 3500
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 3505,
+                    "endLine": 58,
+                    "endColumn": 12,
+                    "endOffset": 3701
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 3505,
+                        "endLine": 58,
+                        "endColumn": 12,
+                        "endOffset": 3701
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 3706,
+                    "endColumn": 128,
+                    "endOffset": 3830
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 3706,
+                        "endColumn": 128,
+                        "endOffset": 3830
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 3835,
+                    "endColumn": 71,
+                    "endOffset": 3902
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 3835,
+                        "endColumn": 71,
+                        "endOffset": 3902
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 3907,
+                    "endColumn": 66,
+                    "endOffset": 3969
+                },
+                "from": {
+                    "file": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 3907,
+                        "endColumn": 66,
+                        "endOffset": 3969
+                    }
+                }
+            }
+        ]
+    }
+]

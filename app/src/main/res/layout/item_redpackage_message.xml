@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/bg_from_hongbao">
+
+        <TextView
+            android:id="@+id/tv_redpkg_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="8dp"
+            android:maxLength="8"
+            android:text="恭喜发财，大吉大利"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_redpkg_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="36dp"
+            android:singleLine="true"
+            android:text="红包已被领完" />
+
+        <TextView
+            android:id="@+id/tv_redpkg_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:singleLine="true"
+            android:text="融云红包" />
+    </RelativeLayout>
+
+</FrameLayout>
