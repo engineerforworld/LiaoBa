@@ -32,7 +32,7 @@ public class ConversationActivity extends FragmentActivity {
     private String mTargetId;
     private String title;
     private Conversation.ConversationType mConversationType;
-    private int i = 0;
+    private int insertMessageCount = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,8 +85,8 @@ public class ConversationActivity extends FragmentActivity {
     }
 
     public void insertMessage() {
-        TextMessage textMsg = TextMessage.obtain("这是插入的消息" + i);
-        i++;
+        TextMessage textMsg = TextMessage.obtain("这是插入的消息" + insertMessageCount);
+        insertMessageCount++;
         long time = System.currentTimeMillis();
         RongIM.getInstance().insertOutgoingMessage(Conversation.ConversationType.PRIVATE, "001", Message.SentStatus.SENT, textMsg, time, new RongIMClient.ResultCallback<Message>() {
             @Override

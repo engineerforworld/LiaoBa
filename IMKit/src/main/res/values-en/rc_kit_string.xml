@@ -50,8 +50,8 @@
     <string name="rc_dialog_item_message_copy">Copy</string>
     <string name="rc_dialog_item_message_recall">Recall</string>
     <string name="rc_recall_failed">Recall failed</string>
-    <string name="rc_you_recalled_a_message">You recalled a message</string>
-    <string name="rc_recalled_a_message">&#160;recalled a message</string>
+    <string name="rc_you_recalled_a_message">You have recalled a message</string>
+    <string name="rc_recalled_a_message">&#160; has recalled a message</string>
 
     <string name="rc_message_unread_count">"···"</string>
     <string name="rc_input_voice">Hold to Talk</string>
@@ -211,12 +211,12 @@
     <string name="rc_item_created_group">%1$s created the group</string>
     <string name="rc_item_invitation">%1$s invited %2$s to join the group</string>
     <string name="rc_item_etc"> and etc </string>
-    <string name="rc_item_remove_group_member">%1$s removed %2$s from the group chat</string>
+    <string name="rc_item_remove_group_member">%1$s removed %2$s from the group</string>
     <string name="rc_item_change_group_name">%1$s changed the group name to %2$s</string>
     <string name="rc_item_you">You</string>
     <string name="rc_item_divided_string">、</string>
     <string name="rc_item_group_notification_summary">[Group Notification]</string>
-    <string name="rc_item_remove_self">%1$s are removed from the group by %2$s</string>
+    <string name="rc_item_remove_self">%1$s were removed from the group by %2$s</string>
 
     <string name="rc_real_time_location_summary">Location sharing...</string>
     <string name="rc_real_time_location_sharing">Location sharing...</string>

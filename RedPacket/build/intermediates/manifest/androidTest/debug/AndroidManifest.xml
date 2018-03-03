@@ -13,7 +13,7 @@
         android:label="Tests for com.jrmf360.rylib.test"
         android:targetPackage="com.jrmf360.rylib.test" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
 
         <activity android:name="com.jrmf360.rylib.rp.ui.AddCardActivity" />

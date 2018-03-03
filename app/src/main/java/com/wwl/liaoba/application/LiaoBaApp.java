@@ -1,10 +1,13 @@
 package com.wwl.liaoba.application;
 
 import android.app.Application;
+
 import com.wwl.liaoba.Utils.Constants;
 import com.wwl.liaoba.Utils.LiaoBaAppContext;
+
 import io.rong.imkit.RongIM;
 import io.rong.push.RongPushClient;
+
 import static io.rong.imkit.utils.SystemUtils.getCurProcessName;
 
 public class LiaoBaApp extends Application {

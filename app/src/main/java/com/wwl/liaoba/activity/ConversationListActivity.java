@@ -20,10 +20,11 @@ import io.rong.imlib.IRongCallback;
 import io.rong.imlib.RongIMClient;
 import io.rong.imlib.model.Conversation;
 import io.rong.imlib.model.Message;
+import io.rong.message.InformationNotificationMessage;
 import io.rong.message.TextMessage;
 
 public class ConversationListActivity extends FragmentActivity implements View.OnClickListener {
-    private int i = 0;
+    private int insertMessageCount = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +50,9 @@ public class ConversationListActivity extends FragmentActivity implements View.O
             case R.id.tv_conversation_list:
                 getConversationList();
                 break;
+            case R.id.tv_conversation:
+                getConversation();
+                break;
             case R.id.btn_list_back:
                 finish();
                 break;
@@ -62,10 +66,25 @@ public class ConversationListActivity extends FragmentActivity implements View.O
 
     }
 
+    public void getConversation() {
+        RongIMClient.getInstance().getConversationListByPage(new RongIMClient.ResultCallback<List<Conversation>>() {
+            @Override
+            public void onSuccess(List<Conversation> conversations) {
+                Log.i("ss", conversations.toString());
+            }
+
+            @Override
+            public void onError(RongIMClient.ErrorCode errorCode) {
+
+            }
+        }, 0, 20, Conversation.ConversationType.PRIVATE);
+
+    }
+
     public void insertMessage() {
         RedPackageMessage redPackageMessage = RedPackageMessage.obtain("biaoti", "sender", "微信红包sss");
-        TextMessage textMsg = TextMessage.obtain("这是插入的消息" + i);
-        i++;
+        TextMessage textMsg = TextMessage.obtain("这是插入的消息" + insertMessageCount);
+        insertMessageCount++;
         long time = System.currentTimeMillis();
         RongIM.getInstance().insertOutgoingMessage(Conversation.ConversationType.PRIVATE, "001", Message.SentStatus.SENT, redPackageMessage, time, new RongIMClient.ResultCallback<Message>() {
             @Override
@@ -81,8 +100,9 @@ public class ConversationListActivity extends FragmentActivity implements View.O
     }
 
     public void sendMessage() {
-        TextMessage textMessage = TextMessage.obtain("我是消息内容");
-        RongIMClient.getInstance().sendMessage(Conversation.ConversationType.PRIVATE, "001", textMessage, null, null, new IRongCallback.ISendMessageCallback() {
+        //TextMessage textMessage = TextMessage.obtain("我是消息内容");
+        InformationNotificationMessage textMessage = InformationNotificationMessage.obtain("小灰条");
+        RongIMClient.getInstance().sendMessage(Conversation.ConversationType.PRIVATE, "003", textMessage, null, null, new IRongCallback.ISendMessageCallback() {
             @Override
             public void onAttached(Message message) {
                 // 消息成功存到本地数据库的回调
@@ -108,7 +128,7 @@ public class ConversationListActivity extends FragmentActivity implements View.O
 
     private void getUnreadMessageCount() {
         Conversation.ConversationType[] conversationTypes = new Conversation.ConversationType[1];
-        conversationTypes[0] = Conversation.ConversationType.SYSTEM;
+        conversationTypes[0] = Conversation.ConversationType.PRIVATE;
         RongIM.getInstance().getUnreadCount(conversationTypes, new RongIMClient.ResultCallback<Integer>() {
             @Override
             public void onSuccess(Integer integer) {
@@ -121,18 +141,18 @@ public class ConversationListActivity extends FragmentActivity implements View.O
             }
         });
 
-        RongIM.getInstance().getUnreadCount(Conversation.ConversationType.SYSTEM, "001", new RongIMClient.ResultCallback<Integer>() {
-            @Override
-            public void onSuccess(Integer integer) {
-                Toast.makeText(ConversationListActivity.this, String.valueOf(integer), Toast.LENGTH_LONG).show();
-            }
-
-            @Override
-            public void onError(RongIMClient.ErrorCode errorCode) {
-                Log.i("ddd", errorCode.getMessage());
-
-            }
-        });
+//        RongIM.getInstance().getUnreadCount(Conversation.ConversationType.SYSTEM, "001", new RongIMClient.ResultCallback<Integer>() {
+//            @Override
+//            public void onSuccess(Integer integer) {
+//                Toast.makeText(ConversationListActivity.this, String.valueOf(integer), Toast.LENGTH_LONG).show();
+//            }
+//
+//            @Override
+//            public void onError(RongIMClient.ErrorCode errorCode) {
+//                Log.i("ddd", errorCode.getMessage());
+//
+//            }
+//        });
     }
 
     public void addUnreaMessageListener() {
@@ -155,7 +175,7 @@ public class ConversationListActivity extends FragmentActivity implements View.O
             @Override
             public void onSuccess(List<Conversation> conversations) {
                 for (int j = 0; j < conversations.size(); j++) {
-                    String conversationTitle = conversations.get(i).getConversationTitle();
+                    String conversationTitle = conversations.get(j).getConversationTitle();
                 }
                 //讨论组id
                 String si = conversations.get(0).getTargetId();

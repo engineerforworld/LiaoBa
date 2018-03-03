@@ -13,7 +13,7 @@
         android:label="Tests for io.rong.calllib.test"
         android:targetPackage="io.rong.calllib.test" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
 
         <meta-data

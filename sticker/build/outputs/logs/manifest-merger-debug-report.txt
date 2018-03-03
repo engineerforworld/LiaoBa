@@ -1,0 +1,93 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:1:1-43:12
+	package
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:2:5-36
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:1:1-43:12
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:1:1-43:12
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:4:5-41:19
+	android:supportsRtl
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:5:9-35
+	android:label
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:4:45-77
+	android:allowBackup
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:4:18-44
+activity#com.melink.bqmmplugin.rc.bqmmsdk.ui.store.EmojiPackageList
+ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:6:9-10:20
+	android:screenOrientation
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:8:13-49
+	android:theme
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:9:13-57
+	android:name
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:7:13-86
+activity#com.melink.bqmmplugin.rc.bqmmsdk.ui.store.EmojiPackageDetail
+ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:12:9-16:20
+	android:screenOrientation
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:14:13-49
+	android:theme
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:15:13-57
+	android:name
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:13:13-88
+activity#com.melink.bqmmplugin.rc.bqmmsdk.ui.store.EmojiPackageSetting
+ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:18:9-22:20
+	android:screenOrientation
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:20:13-49
+	android:theme
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:21:13-57
+	android:name
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:19:13-89
+activity#com.melink.bqmmplugin.rc.bqmmsdk.ui.store.EmojiDetail
+ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:24:9-28:20
+	android:screenOrientation
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:26:13-49
+	android:theme
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:27:13-57
+	android:name
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:25:13-81
+activity#com.melink.bqmmplugin.rc.bqmmsdk.ui.store.ServiceDeclaration
+ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:30:9-34:20
+	android:screenOrientation
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:32:13-49
+	android:theme
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:33:13-57
+	android:name
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:31:13-88
+activity#com.melink.bqmmplugin.rc.bqmmsdk.ui.store.EmojiPackageSort
+ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:35:9-39:20
+	android:screenOrientation
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:37:13-49
+	android:theme
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:38:13-57
+	android:name
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml:36:13-86
+uses-sdk
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/src/main/AndroidManifest.xml

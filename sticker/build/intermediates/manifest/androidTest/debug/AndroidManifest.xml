@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.melink.bqmmplugin.test" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <instrumentation
+        android:name="android.support.test.runner.AndroidJUnitRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.melink.bqmmplugin.test"
+        android:targetPackage="com.melink.bqmmplugin.test" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="com.melink.bqmmplugin.rc.bqmmsdk.ui.store.EmojiPackageList"
+            android:screenOrientation="portrait"
+            android:theme="@style/bqmm_horizontal_slide" >
+        </activity>
+        <activity
+            android:name="com.melink.bqmmplugin.rc.bqmmsdk.ui.store.EmojiPackageDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/bqmm_horizontal_slide" >
+        </activity>
+        <activity
+            android:name="com.melink.bqmmplugin.rc.bqmmsdk.ui.store.EmojiPackageSetting"
+            android:screenOrientation="portrait"
+            android:theme="@style/bqmm_horizontal_slide" >
+        </activity>
+        <activity
+            android:name="com.melink.bqmmplugin.rc.bqmmsdk.ui.store.EmojiDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/bqmm_horizontal_slide" >
+        </activity>
+        <activity
+            android:name="com.melink.bqmmplugin.rc.bqmmsdk.ui.store.ServiceDeclaration"
+            android:screenOrientation="portrait"
+            android:theme="@style/bqmm_horizontal_slide" >
+        </activity>
+        <activity
+            android:name="com.melink.bqmmplugin.rc.bqmmsdk.ui.store.EmojiPackageSort"
+            android:screenOrientation="portrait"
+            android:theme="@style/bqmm_horizontal_slide" >
+        </activity>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.0.0" />
+    </application>
+
+</manifest>

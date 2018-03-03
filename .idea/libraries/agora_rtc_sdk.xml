@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="agora-rtc-sdk">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/CallLib/libs/agora-rtc-sdk.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

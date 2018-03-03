@@ -654,13 +654,13 @@
     <string name="rc_item_divided_string">、</string>
     <string name="rc_item_etc">等</string>
     <string name="rc_item_group_notification_summary">[群组通知]</string>
-    <string name="rc_item_invitation">%1$s邀请%2$s加入了群组</string>
+    <string name="rc_item_invitation">%1$s邀请%2$s加入群组</string>
     <string name="rc_item_join_group">加入了群组</string>
     <string name="rc_item_quit_groups">退出了群组</string>
     <string name="rc_item_remove_group_after_str">移出了群组</string>
     <string name="rc_item_remove_group_before_str">将</string>
-    <string name="rc_item_remove_group_member">%1$s将%2$s移出了群组</string>
-    <string name="rc_item_remove_self">%1$s被%2$s移出了群组</string>
+    <string name="rc_item_remove_group_member">%1$s将%2$s移出群组</string>
+    <string name="rc_item_remove_self">%1$s被%2$s移出群组</string>
     <string name="rc_item_to_join_group">加入了群组</string>
     <string name="rc_item_you">你</string>
     <string name="rc_join_chatroom_failure">加入聊天室失败</string>
@@ -738,7 +738,7 @@
     <string name="rc_real_time_location_sharing">发起了位置共享</string>
     <string name="rc_real_time_location_summary">我发起了位置共享</string>
     <string name="rc_recall_failed">撤回失败</string>
-    <string name="rc_recalled_a_message">撤回了一条消息</string>
+    <string name="rc_recalled_a_message"> 撤回了一条消息</string>
     <string name="rc_rejected_by_blacklist_prompt">您的消息已经发出，但被对方拒收</string>
     <string name="rc_saturday_format">周六</string>
     <string name="rc_save_picture">保存图片</string>

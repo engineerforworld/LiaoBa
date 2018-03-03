@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'china'
+            keyPassword '000000'
+            storeFile file('/Users/wangwenliang/AndroidStudioProjects/LiaoBa/lbsignature.jks')
+            storePassword '000000'
+        }
+    }
     compileSdkVersion 27
     buildToolsVersion "27.0.1"
     defaultConfig {
@@ -18,6 +26,10 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
         }
     }
     sourceSets {
@@ -25,6 +37,10 @@ android {
             jni.srcDirs = []
             jniLibs.srcDirs = ['libs']
         }
+//        main {
+//            jni.srcDirs = []
+//            jniLibs.srcDirs = ['src/main/libs']
+//        }
     }
 }
 
@@ -39,6 +55,7 @@ dependencies {
     compile(name: 'HMS-SDK-2.4.0.300', ext: 'aar')
     compile project(':CallKit')
     compile project(':RedPacket')
+    compile project(':sticker')
 }
 repositories { flatDir { dirs 'aars' } }
 allprojects {

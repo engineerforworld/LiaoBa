@@ -1,16 +1,19 @@
 package com.wwl.liaoba.receiver;
 
 import android.content.Context;
+import android.util.Log;
 
 import io.rong.push.notification.PushMessageReceiver;
 import io.rong.push.notification.PushNotificationMessage;
 
 public class LiaoBaNotificationReceiver extends PushMessageReceiver {
+
     @Override
     public boolean onNotificationMessageArrived(Context context, PushNotificationMessage pushNotificationMessage) {
         // 返回 false, 会弹出融云 SDK 默认通知; 返回 true, 融云 SDK 不会弹通知, 通知需要由您自定义
         //Toast.makeText(context, pushNotificationMessage.getPushContent(), Toast.LENGTH_LONG).show();
         //pushNotificationMessage.getPushContent();
+        Log.i("Rong", "onNotificationMessageArrived收到的消息----" + pushNotificationMessage.getSenderId() + "---" + pushNotificationMessage.getPushContent());
         return false;
     }
 

@@ -1,6 +1,7 @@
 package com.wwl.liaoba.Utils;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.View;
 
 import com.wwl.liaoba.Extension.LiaoBaExtensionModule;
@@ -25,6 +26,7 @@ import io.rong.imlib.model.UserInfo;
 import io.rong.message.ContactNotificationMessage;
 import io.rong.message.GroupNotificationMessage;
 import io.rong.message.ImageMessage;
+import io.rong.message.TextMessage;
 
 /**
  * 融云相关监听 事件集合类
@@ -75,7 +77,8 @@ public class LiaoBaAppContext implements
         registerMessageType();//注册消息模板
         registerExtensionPlugin();//注册plugin
         setReadReceiptConversationType();//设置已读消息回执的会话类型
-        RongIM.setConversationListBehaviorListener(this);//设置会话界面操作的监听器
+        RongIM.setConversationListBehaviorListener(this);//设置会话列表界面操作的监听器
+        RongIM.setConversationClickListener(this);//设置会话页面操作监听
         RongIM.setConnectionStatusListener(this);// 设置连接状态监听器
         RongIM.setUserInfoProvider(this, true);//设置用户信息提供者
         RongIM.setGroupInfoProvider(this, true);//设置群组信息提供者
@@ -152,6 +155,9 @@ public class LiaoBaAppContext implements
 
         } else if (messageContent instanceof ImageMessage) {
 
+        } else if (messageContent instanceof TextMessage) {
+            TextMessage textMessage = (TextMessage) messageContent;
+            Log.i("Rong", "onReceived收到的消息----" + message.getSenderUserId() + "---" + textMessage.getContent());
         }
         return false;
     }
@@ -184,7 +190,7 @@ public class LiaoBaAppContext implements
         if (conversationType == Conversation.ConversationType.CUSTOMER_SERVICE || conversationType == Conversation.ConversationType.PUBLIC_SERVICE || conversationType == Conversation.ConversationType.APP_PUBLIC_SERVICE) {
             return false;
         }
-        return true;
+        return false;
     }
 
     @Override
@@ -195,12 +201,11 @@ public class LiaoBaAppContext implements
     @Override
     public boolean onMessageClick(final Context context, final View view, final Message message) {
         //demo 代码  开发者需替换成自己的代码
-        if (message.getContent() instanceof ImageMessage) {
-            /*Intent intent = new Intent(context, PhotoActivity.class);
-            intent.putExtra("message", message);
-            context.startActivity(intent);*/
-        }
-
+//        if (message.getContent() instanceof ImageMessage) {
+//            Intent intent = new Intent(context, SelectConversationActivity.class);
+//            intent.putExtra("message", message);
+//            context.startActivity(intent);
+//        }
         return false;
     }
 

@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:1:1-13:12
+	package
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:2:5-30
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:1:1-13:12
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:1:1-13:12
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:4:5-6:41
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:4:5-6:41
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:4:5-6:41
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:4:5-6:41
+INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:4:5-6:41
+	android:targetSdkVersion
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:6:9-38
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:5:9-35
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml
+		INJECTED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml
+application
+ADDED from /Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallLib/AndroidManifest.xml:8:5-11:19

@@ -33,21 +33,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:hint="请输入用户名"
             android:layout_marginLeft="34dp"
-            android:layout_marginRight="34dp" />
+            android:layout_marginRight="34dp"
+            android:gravity="center"
+            android:hint="请输入用户名"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
 
         <Button
             android:id="@+id/btn_main_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:layout_centerVertical="true"
             android:layout_below="@+id/edt_main_username"
-            android:background="@drawable/rs_select_btn_blue"
+            android:layout_centerVertical="true"
             android:layout_marginLeft="34dp"
             android:layout_marginRight="34dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rs_select_btn_blue"
             android:text="登陆"
-            android:textColor="#FFFFFF" />
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
     </RelativeLayout>
 </RelativeLayout>

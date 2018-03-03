@@ -39,9 +39,10 @@ public class UserInfoManager {
 
     public UserInfo getUserInfo(String userId) {
         for (int i = 0; i < list.size(); i++) {
-            if (list.get(i).getUserId().equals(userId)) ;
-            UserInfo userInfo = new UserInfo(list.get(i).getUserId(), list.get(i).getUserName(), null);
-            return userInfo;
+            if (list.get(i).getUserId().equals(userId)) {
+                UserInfo userInfo = new UserInfo(list.get(i).getUserId(), list.get(i).getUserName(), null);
+                return userInfo;
+            }
         }
         return null;
     }

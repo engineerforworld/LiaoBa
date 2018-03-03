@@ -34,6 +34,22 @@ public class LiaoBaExtensionModule extends DefaultExtensionModule {
     @Override
     public List<IPluginModule> getPluginModules(Conversation.ConversationType conversationType) {
         List<IPluginModule> pluginModules = super.getPluginModules(conversationType);
+        //去掉音视频plugin
+//        for (IPluginModule module : pluginModules) {
+//            if (module instanceof FilePlugin) {
+//                pluginModules.remove(module);
+//            }
+//
+//        }
+        //去掉"位置"plugin
+        //注意：在删除CombineLocationPlugin的时候如果用上面增强for循环会抛异常java.util.ConcurrentModificationException，所以改成这种方式遍历删除
+//        ListIterator<IPluginModule> iterator = pluginModules.listIterator();
+//        while (iterator.hasNext()) {
+//            IPluginModule integer = iterator.next();
+//            if (integer instanceof CombineLocationPlugin) {
+//                iterator.remove();
+//            }
+//        }
         pluginModules.add(new ConectionPlugin());
         return pluginModules;
     }

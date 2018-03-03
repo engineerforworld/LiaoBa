@@ -3,6 +3,7 @@ package com.wwl.liaoba.activity;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -14,6 +15,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.huawei.hms.api.ConnectionResult;
+import com.huawei.hms.api.HuaweiApiClient;
+import com.huawei.hms.support.api.push.HuaweiPush;
 import com.wwl.liaoba.R;
 import com.wwl.liaoba.Utils.AppSharePreferenceMgr;
 import com.wwl.liaoba.Utils.UserInfoManager;
@@ -31,7 +35,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
     private ArrayList<User> mList;
     private Button mButton;
     private EditText mEditText;
-    private ImageView mImg_Background;
+    private ImageView imgBackground;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,18 +43,42 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_login);
         mButton = (Button) findViewById(R.id.btn_main_login);
         mEditText = (EditText) findViewById(R.id.edt_main_username);
-        mImg_Background = (ImageView) findViewById(R.id.de_img_backgroud);
+        imgBackground = (ImageView) findViewById(R.id.de_img_backgroud);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                 Animation animation = AnimationUtils.loadAnimation(LoginActivity.this, R.anim.translate_anim);
-                mImg_Background.startAnimation(animation);
+                imgBackground.startAnimation(animation);
             }
         }, 200);
         mList = UserInfoManager.getInstance().getUserList();
         mButton.setOnClickListener(this);
+        getHMSToken();
     }
 
+    private void getHMSToken() {
+        HuaweiApiClient client = new HuaweiApiClient.Builder(LoginActivity.this)
+                .addApi(HuaweiPush.PUSH_API)
+                .addConnectionCallbacks(new HuaweiApiClient.ConnectionCallbacks() {
+                    @Override
+                    public void onConnected() {
+                        Log.i("Rong", "HMS连接成功");
+                    }
+
+                    @Override
+                    public void onConnectionSuspended(int i) {
+                        Log.i("Rong", "HMS连接------");
+                    }
+                })
+                .addOnConnectionFailedListener(new HuaweiApiClient.OnConnectionFailedListener() {
+                    @Override
+                    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+                        Log.i("Rong", "连接失败----" + connectionResult.getErrorCode());
+                    }
+                })
+                .build();
+        client.connect();
+    }
 
     @Override
     public void onClick(View view) {

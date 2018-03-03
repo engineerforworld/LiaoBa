@@ -153,7 +153,7 @@
 
         <provider
             android:name="com.huawei.hms.update.provider.UpdateProvider"
-            android:authorities="xxx.xxx.xxx.hms.update.provider"
+            android:authorities="com.wwl.liaoba.hms.update.provider"
             android:exported="false"
             android:grantUriPermissions="true"></provider>
         <!-- 第三方相关 :接收Push消息（注册、Push消息、Push连接状态）广播 -->
