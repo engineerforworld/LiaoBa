@@ -1,6 +1,8 @@
 package com.wwl.liaoba.Utils;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.util.Log;
 import android.view.View;
 
@@ -26,6 +28,7 @@ import io.rong.imlib.model.UserInfo;
 import io.rong.message.ContactNotificationMessage;
 import io.rong.message.GroupNotificationMessage;
 import io.rong.message.ImageMessage;
+import io.rong.message.LocationMessage;
 import io.rong.message.TextMessage;
 
 /**
@@ -205,6 +208,9 @@ public class LiaoBaAppContext implements
 //            Intent intent = new Intent(context, SelectConversationActivity.class);
 //            intent.putExtra("message", message);
 //            context.startActivity(intent);
+//        } else if (message.getContent() instanceof LocationMessage) {
+//            Message message1 = Message.obtain("001", Conversation.ConversationType.PRIVATE, message.getContent());
+//            RongIM.getInstance().sendLocationMessage(message1, null, null, null);
 //        }
         return false;
     }
@@ -219,13 +225,27 @@ public class LiaoBaAppContext implements
     }
 
     @Override
-    public boolean onMessageLinkClick(Context context, String s, Message message) {
+    public boolean onMessageLinkClick(Context context, String s, final Message message) {
         return false;
     }
 
     @Override
-    public boolean onMessageLongClick(Context context, View view, Message message) {
-        return false;
+    public boolean onMessageLongClick(Context context, View view, final Message message) {
+        AlertDialog alertDialog = new AlertDialog.Builder(context).setTitle("转发消息").setPositiveButton("确定", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                if (message.getContent() instanceof LocationMessage) {
+                    Message message1 = Message.obtain("001", Conversation.ConversationType.PRIVATE, message.getContent());
+                    RongIM.getInstance().sendLocationMessage(message1, null, null, null);
+                }
+            }
+        }).setNegativeButton("取消", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        }).show();
+        return true;
     }
 
 
