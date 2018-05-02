@@ -1,13 +1,13 @@
 package com.wwl.liaoba.Utils;
 
-import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.util.Log;
 import android.view.View;
 
 import com.wwl.liaoba.Extension.LiaoBaExtensionModule;
 import com.wwl.liaoba.application.LiaoBaApp;
+import com.wwl.liaoba.message.BurnAfterReadMessage;
+import com.wwl.liaoba.message.BurnAfterReadMessageProvider;
 import com.wwl.liaoba.message.RedPackageItemProvider;
 import com.wwl.liaoba.message.RedPackageMessage;
 
@@ -28,7 +28,6 @@ import io.rong.imlib.model.UserInfo;
 import io.rong.message.ContactNotificationMessage;
 import io.rong.message.GroupNotificationMessage;
 import io.rong.message.ImageMessage;
-import io.rong.message.LocationMessage;
 import io.rong.message.TextMessage;
 
 /**
@@ -93,8 +92,12 @@ public class LiaoBaAppContext implements
     }
 
     private void registerMessageType() {
+        //注册红包消息
         RongIM.registerMessageType(RedPackageMessage.class);
         RongIM.registerMessageTemplate(new RedPackageItemProvider());
+        //注册阅后即焚消息
+        RongIM.registerMessageType(BurnAfterReadMessage.class);
+        RongIM.registerMessageTemplate(new BurnAfterReadMessageProvider());
     }
 
     private void registerExtensionPlugin() {
@@ -231,21 +234,21 @@ public class LiaoBaAppContext implements
 
     @Override
     public boolean onMessageLongClick(Context context, View view, final Message message) {
-        AlertDialog alertDialog = new AlertDialog.Builder(context).setTitle("转发消息").setPositiveButton("确定", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                if (message.getContent() instanceof LocationMessage) {
-                    Message message1 = Message.obtain("001", Conversation.ConversationType.PRIVATE, message.getContent());
-                    RongIM.getInstance().sendLocationMessage(message1, null, null, null);
-                }
-            }
-        }).setNegativeButton("取消", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-
-            }
-        }).show();
-        return true;
+//        AlertDialog alertDialog = new AlertDialog.Builder(context).setTitle("转发消息").setPositiveButton("确定", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                if (message.getContent() instanceof LocationMessage) {
+//                    Message message1 = Message.obtain("001", Conversation.ConversationType.PRIVATE, message.getContent());
+//                    RongIM.getInstance().sendLocationMessage(message1, null, null, null);
+//                }
+//            }
+//        }).setNegativeButton("取消", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//
+//            }
+//        }).show();
+        return false;
     }
 
 

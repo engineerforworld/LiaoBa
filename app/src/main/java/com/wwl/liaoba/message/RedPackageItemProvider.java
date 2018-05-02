@@ -68,7 +68,7 @@ public class RedPackageItemProvider extends IContainerItemProvider.MessageProvid
     @Override
     public void onItemLongClick(final View view, int i, final RedPackageMessage redPackageMessage, final UIMessage uiMessage) {
         String[] items1;//复制，删除
-        items1 = new String[]{view.getContext().getResources().getString(io.rong.imkit.R.string.rc_dialog_item_message_copy), view.getContext().getResources().getString(io.rong.imkit.R.string.rc_dialog_item_message_delete)};
+        items1 = new String[]{view.getContext().getResources().getString(io.rong.imkit.R.string.rc_dialog_item_message_copy), view.getContext().getResources().getString(io.rong.imkit.R.string.rc_dialog_item_message_delete), view.getContext().getResources().getString(io.rong.imkit.R.string.rc_dialog_item_message_recall)};
         OptionsPopupDialog.newInstance(view.getContext(), items1).setOptionsPopupDialogListener(new OptionsPopupDialog.OnOptionsItemClickedListener() {
             public void onOptionsItemClicked(int which) {
                 if (which == 0) {
@@ -76,6 +76,8 @@ public class RedPackageItemProvider extends IContainerItemProvider.MessageProvid
                     clipboard.setText(redPackageMessage.getStatus());
                 } else if (which == 1) {
                     RongIM.getInstance().deleteMessages(new int[]{uiMessage.getMessageId()}, (RongIMClient.ResultCallback) null);
+                } else if (which == 2) {
+                    RongIM.getInstance().recallMessage(uiMessage.getMessage(), "pushcongent");
                 }
             }
         }).show();

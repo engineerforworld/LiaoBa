@@ -53,7 +53,7 @@ public class SelectConversationActivity extends AppCompatActivity {
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                RongIM.getInstance().startPrivateChat(SelectConversationActivity.this, mList.get(i).getUserId(), mList.get(i).getUserName());
+                RongIM.getInstance().startPrivateChat(SelectConversationActivity.this, mList.get(i).getUserId(), "huibaibiaoti");
             }
         });
 

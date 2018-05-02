@@ -11,6 +11,7 @@ import com.jrmf360.rylib.JrmfClient;
 import com.wwl.liaoba.Extension.LiaoBaExtensionModule;
 import com.wwl.liaoba.R;
 import com.wwl.liaoba.Utils.AppSharePreferenceMgr;
+import com.wwl.liaoba.message.BurnAfterReadMessage;
 
 import java.util.List;
 import java.util.Locale;
@@ -80,8 +81,39 @@ public class ConversationActivity extends FragmentActivity {
             case R.id.tv_history_msg:
                 getHistotyMessage();
                 break;
+            case R.id.tv_yuehoujif:
+                sendBurnDownMessage();
+                break;
+            default:
+                break;
         }
 
+    }
+
+    public void sendBurnDownMessage() {
+        Uri mTakePictureUri = Uri.parse("file:///storage/emulated/0/Download/53da008c6bc8b3c78fe2901cd1fa0d2a.png");
+        BurnAfterReadMessage burnAfterReadMessage = BurnAfterReadMessage.obtain(mTakePictureUri, mTakePictureUri, true);
+        RongIM.getInstance().sendImageMessage(Conversation.ConversationType.PRIVATE, "003", burnAfterReadMessage, "阅后即焚", "阅后即焚", new RongIMClient.SendImageMessageCallback() {
+            @Override
+            public void onAttached(Message message) {
+
+            }
+
+            @Override
+            public void onError(Message message, RongIMClient.ErrorCode errorCode) {
+
+            }
+
+            @Override
+            public void onSuccess(Message message) {
+
+            }
+
+            @Override
+            public void onProgress(Message message, int i) {
+
+            }
+        });
     }
 
     public void insertMessage() {
