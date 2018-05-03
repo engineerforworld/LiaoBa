@@ -102,8 +102,8 @@ public class ConversationListActivity extends FragmentActivity implements View.O
     public void sendMessage() {
         //TextMessage textMessage = TextMessage.obtain("我是消息内容");
         InformationNotificationMessage textMessage = InformationNotificationMessage.obtain("小灰条");
-        RedPackageMessage redPackageMessage = RedPackageMessage.obtain("红包","status","title");
-        RongIMClient.getInstance().sendMessage(Conversation.ConversationType.PRIVATE, "002", redPackageMessage, null, null, new IRongCallback.ISendMessageCallback() {
+        //RedPackageMessage redPackageMessage = RedPackageMessage.obtain("红包","status","title");
+        RongIMClient.getInstance().sendMessage(Conversation.ConversationType.PRIVATE, "002", textMessage, null, null, new IRongCallback.ISendMessageCallback() {
             @Override
             public void onAttached(Message message) {
                 // 消息成功存到本地数据库的回调
