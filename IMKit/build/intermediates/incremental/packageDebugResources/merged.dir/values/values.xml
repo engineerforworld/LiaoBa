@@ -374,7 +374,7 @@
         <item>.docx</item>
     </array>
     <bool name="rc_enable_mentioned_message">false</bool>
-    <bool name="rc_enable_message_recall">true</bool>
+    <bool name="rc_enable_message_recall">false</bool>
     <bool name="rc_enable_sync_read_status">false</bool>
     <bool name="rc_is_show_warning_notification">true</bool>
     <bool name="rc_play_audio_continuous">true</bool>
@@ -388,11 +388,17 @@
     <color name="rc_divider_line">#ababad</color>
     <color name="rc_draft_color">#cb120f</color>
     <color name="rc_emoji_grid_item_bg">#ebebeb</color>
+    <color name="rc_ext_root_menu_item_text_color">#353535</color>
+    <color name="rc_ext_sub_menu_item_text_color">#828282</color>
     <color name="rc_extension_normal">#f4f4f6</color>
     <color name="rc_input_bg">#F4F4F4</color>
     <color name="rc_input_gap_color">#dbdbdd</color>
     <color name="rc_location_text">#7F000000</color>
     <color name="rc_main_theme">#0195ff</color>
+    <color name="rc_map_list_divider_color">#e5e5e5</color>
+    <color name="rc_map_list_text_color">#262626</color>
+    <color name="rc_map_list_text_grey_color">#939393</color>
+    <color name="rc_map_search_highlight_color">#0099ff</color>
     <color name="rc_mentioned_color">#cc3333</color>
     <color name="rc_message_user_name">#828282</color>
     <color name="rc_normal_bg">#EBEBEB</color>
@@ -434,6 +440,7 @@
             <flag name="square" value="0"/>
             <flag name="circle" value="1"/>
         </attr><attr format="reference" name="RCDefDrawable"/></declare-styleable>
+    <declare-styleable name="AutoLinkTextView"><attr format="dimension" name="RCMaxWidth"/></declare-styleable>
     <declare-styleable name="RongExtension"><attr name="RCStyle">
             <enum name="SCE" value="0x123"/>
             <enum name="SC" value="0x120"/>
@@ -453,6 +460,14 @@
     <dimen name="rc_dimen_size_50">50dp</dimen>
     <dimen name="rc_dimen_size_7">7dp</dimen>
     <dimen name="rc_dimen_size_9">9dp</dimen>
+    <dimen name="rc_ext_location_nearby_list_max_height">351dp</dimen>
+    <dimen name="rc_ext_location_nearby_list_min_height">286dp</dimen>
+    <dimen name="rc_ext_more_imgage_height">30dp</dimen>
+    <dimen name="rc_ext_more_imgage_width">30dp</dimen>
+    <dimen name="rc_ext_more_layout_height">46dp</dimen>
+    <dimen name="rc_ext_root_menu_item_text_size">16sp</dimen>
+    <dimen name="rc_ext_sub_menu_item_text_size">14sp</dimen>
+    <dimen name="rc_extension_bar_min_height">48dp</dimen>
     <dimen name="rc_extension_board_height">282dp</dimen>
     <dimen name="rc_popup_dialog_distance_to_edge">40dp</dimen>
     <item name="rc_actionbar" type="id"/>
@@ -514,6 +529,7 @@
     <integer name="rc_custom_service_evaluation_interval">60</integer>
     <integer name="rc_extension_emoji_count_per_page">20</integer>
     <integer name="rc_extension_plugin_count_per_page">8</integer>
+    <integer name="rc_file_transfer_max_size">100</integer>
     <integer name="rc_message_recall_interval">180</integer>
     <integer name="rc_read_receipt_request_interval">120</integer>
     <string name="rc_ac_file_download_btn">开始下载</string>
@@ -551,7 +567,9 @@
     <string name="rc_android.permission.ACCESS_COARSE_LOCATION">位置信息</string>
     <string name="rc_android.permission.ACCESS_FINE_LOCATION">位置信息</string>
     <string name="rc_android.permission.CAMERA">相机</string>
+    <string name="rc_android.permission.PROCESS_OUTGOING_CALLS">电话</string>
     <string name="rc_android.permission.READ_EXTERNAL_STORAGE">存储空间</string>
+    <string name="rc_android.permission.READ_PHONE_STATE">电话</string>
     <string name="rc_android.permission.RECORD_AUDIO">麦克风</string>
     <string name="rc_android.permission.WRITE_EXTERNAL_STORAGE">存储空间</string>
     <string name="rc_android.settings.action.MANAGE_OVERLAY_PERMISSION">悬浮窗</string>
@@ -608,6 +626,7 @@
     <string name="rc_dialog_cancel">取消</string>
     <string name="rc_dialog_item_message_copy">复制消息</string>
     <string name="rc_dialog_item_message_delete">删除消息</string>
+    <string name="rc_dialog_item_message_more">更多…</string>
     <string name="rc_dialog_item_message_recall">撤回消息</string>
     <string name="rc_dialog_ok">确定</string>
     <string name="rc_discussion_nt_msg_for_add">"%1$s 邀请了%2$d位成员加入了讨论组"</string>
@@ -624,6 +643,8 @@
     <string name="rc_ext_exit_location_sharing">是否结束位置共享？</string>
     <string name="rc_ext_exit_location_sharing_confirm">结束共享</string>
     <string name="rc_ext_location_permission_failed">您需要在设置里打开定位权限</string>
+    <string name="rc_ext_search">搜索</string>
+    <string name="rc_ext_search_no_result">暂无结果</string>
     <string name="rc_ext_send">发送</string>
     <string name="rc_ext_warning">提示</string>
     <string name="rc_file_not_exist">文件不存在</string>
@@ -635,6 +656,7 @@
     <string name="rc_fr_file_category_title_text">文本</string>
     <string name="rc_fr_file_category_title_video">视频</string>
     <string name="rc_fr_file_list_most_selected_files">您最多只能选择20个文件</string>
+    <string name="rc_fr_file_size_limit">您选择的文件不能超过 %dM </string>
     <string name="rc_fr_loading_file_message">加载中...</string>
     <string name="rc_fr_no_file_message">没有%1$s文件</string>
     <string name="rc_fr_storage_folder_list_no_files">无法读取%1$s中的文件</string>
@@ -742,7 +764,7 @@
     <string name="rc_rejected_by_blacklist_prompt">您的消息已经发出，但被对方拒收</string>
     <string name="rc_saturday_format">周六</string>
     <string name="rc_save_picture">保存图片</string>
-    <string name="rc_save_picture_at">图片保存在%s</string>
+    <string name="rc_save_picture_at">图片保存成功</string>
     <string name="rc_search">搜索</string>
     <string name="rc_send_format">发送(%1$s)</string>
     <string name="rc_setting_clear_msg_fail">清空聊天失败</string>
@@ -766,7 +788,7 @@
     <string name="rc_voice_short">录音时间太短</string>
     <string name="rc_voice_too_long">录制时间超长</string>
     <string name="rc_voip_cpu_error">很抱歉，该功能暂时不支持您的机型</string>
-    <string name="rc_voip_occupying">声音通道正被占用，请稍后再试</string>
+    <string name="rc_voip_occupying">声音通道被占用，请稍后再试</string>
     <string name="rc_waiting">等待中</string>
     <string name="rc_wednesday_format">周三</string>
     <string name="rc_year_format">年</string>

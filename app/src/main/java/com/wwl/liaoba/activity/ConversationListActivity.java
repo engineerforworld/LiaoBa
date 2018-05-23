@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.wwl.liaoba.R;
-import com.wwl.liaoba.message.RedPackageMessage;
 
 import java.util.List;
 
@@ -82,13 +81,33 @@ public class ConversationListActivity extends FragmentActivity implements View.O
     }
 
     public void insertMessage() {
-        RedPackageMessage redPackageMessage = RedPackageMessage.obtain("biaoti", "sender", "微信红包sss");
-        TextMessage textMsg = TextMessage.obtain("这是插入的消息" + insertMessageCount);
-        insertMessageCount++;
-        long time = System.currentTimeMillis();
-        RongIM.getInstance().insertOutgoingMessage(Conversation.ConversationType.PRIVATE, "001", Message.SentStatus.SENT, redPackageMessage, time, new RongIMClient.ResultCallback<Message>() {
+//        RedPackageMessage redPackageMessage = RedPackageMessage.obtain("biaoti", "sender", "微信红包sss");
+//        TextMessage textMsg = TextMessage.obtain("这是插入的消息" + insertMessageCount);
+//        insertMessageCount++;
+//        long time = System.currentTimeMillis();
+//        RongIM.getInstance().insertOutgoingMessage(Conversation.ConversationType.PRIVATE, "001", Message.SentStatus.SENT, redPackageMessage, time, new RongIMClient.ResultCallback<Message>() {
+//            @Override
+//            public void onSuccess(Message message) {
+//
+//            }
+//
+//            @Override
+//            public void onError(RongIMClient.ErrorCode errorCode) {
+//
+//            }
+//        });
+
+
+        ;
+
+        RongIM.getInstance().setConversationNotificationStatus(Conversation.ConversationType.PRIVATE, "003", Conversation.ConversationNotificationStatus.DO_NOT_DISTURB, new RongIMClient.ResultCallback<Conversation.ConversationNotificationStatus>() {
             @Override
-            public void onSuccess(Message message) {
+            public void onSuccess(Conversation.ConversationNotificationStatus conversationNotificationStatus) {
+                if (conversationNotificationStatus == Conversation.ConversationNotificationStatus.DO_NOT_DISTURB) {
+//                    NToast.shortToast(context, "设置免打扰成功");
+                } else if (conversationNotificationStatus == Conversation.ConversationNotificationStatus.NOTIFY) {
+//                    NToast.shortToast(context, "取消免打扰成功");
+                }
 
             }
 
@@ -100,10 +119,11 @@ public class ConversationListActivity extends FragmentActivity implements View.O
     }
 
     public void sendMessage() {
-        //TextMessage textMessage = TextMessage.obtain("我是消息内容");
-        InformationNotificationMessage textMessage = InformationNotificationMessage.obtain("小灰条");
+        TextMessage textMessage = TextMessage.obtain("我是消息内容");
+        final InformationNotificationMessage informationNotificationMessage = InformationNotificationMessage.obtain("小灰条");
+        informationNotificationMessage.setExtra("拓展字段");
         //RedPackageMessage redPackageMessage = RedPackageMessage.obtain("红包","status","title");
-        RongIMClient.getInstance().sendMessage(Conversation.ConversationType.PRIVATE, "002", textMessage, null, null, new IRongCallback.ISendMessageCallback() {
+        RongIMClient.getInstance().sendMessage(Conversation.ConversationType.PRIVATE, "002", informationNotificationMessage, null, null, new IRongCallback.ISendMessageCallback() {
             @Override
             public void onAttached(Message message) {
                 // 消息成功存到本地数据库的回调
@@ -113,6 +133,8 @@ public class ConversationListActivity extends FragmentActivity implements View.O
             @Override
             public void onSuccess(Message message) {
                 // 消息发送成功的回调
+                InformationNotificationMessage informationNotificationMessage1 = (InformationNotificationMessage) (message.getContent());
+                informationNotificationMessage.getExtra();
                 Toast.makeText(ConversationListActivity.this, "消息发送成功的回调", Toast.LENGTH_LONG).show();
                 enterFragment();
             }
@@ -134,6 +156,18 @@ public class ConversationListActivity extends FragmentActivity implements View.O
             @Override
             public void onSuccess(Integer integer) {
                 Toast.makeText(ConversationListActivity.this, String.valueOf(integer), Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void onError(RongIMClient.ErrorCode errorCode) {
+
+            }
+        });
+
+        RongIM.getInstance().getTotalUnreadCount(new RongIMClient.ResultCallback<Integer>() {
+            @Override
+            public void onSuccess(Integer integer) {
+
             }
 
             @Override

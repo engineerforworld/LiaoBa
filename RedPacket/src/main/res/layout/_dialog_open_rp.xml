@@ -3,7 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
-    android:layout_height="410dp"
+    android:layout_height="wrap_content"
+    android:minHeight="410dp"
+    android:paddingBottom="16dp"
     android:background="@drawable/open_rp_bg">
 
     <ImageView
@@ -94,13 +96,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_tip"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
         android:src="@drawable/open_rp"
         android:visibility="invisible"/>
 
     <TextView
         android:id="@+id/tv_look_others"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="8dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/iv_open_rp"

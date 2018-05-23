@@ -73,7 +73,7 @@
     <dimen name="input_height">48dip</dimen>
     <dimen name="item_mywallet_height">48dp</dimen>
     <dimen name="item_trade_detail_height">80dp</dimen>
-    <dimen name="jrmf_dimen_4">6dip</dimen>
+    <dimen name="jrmf_dimen_4">4dip</dimen>
     <dimen name="round_radius">6dip</dimen>
     <dimen name="title_bar_text_size">17sp</dimen>
     <dimen name="titlebar_height">56dp</dimen>
@@ -226,6 +226,7 @@
     <string name="jrmf_rp_receive2">收到的红包</string>
     <string name="jrmf_rp_receive_rate">已领完%1$s/%2$s</string>
     <string name="jrmf_rp_receive_rp">领取红包</string>
+    <string name="jrmf_rp_receiving_rate">已领%1$s/%2$s</string>
     <string name="jrmf_rp_send">发出的红包</string>
     <string name="jrmf_rp_send_a_rp">发了一个红包</string>
     <string name="jrmf_rp_send_num">发出红包%1$d个</string>
@@ -237,7 +238,7 @@
     <string name="jrmf_select_pay_style">选择付款方式</string>
     <string name="jrmf_select_province">选择省</string>
     <string name="jrmf_select_sub_branch">选择支行</string>
-    <string name="jrmf_send_rp_title">发红包</string>
+    <string name="jrmf_send_rp_title">红包</string>
     <string name="jrmf_send_sms_code">发送验证码</string>
     <string name="jrmf_set_pwd_tip">支付密码设置</string>
     <string name="jrmf_set_pwd_title">设置支付密码</string>
@@ -284,6 +285,7 @@
     <string name="no_input_amount_toast">请输入提现金额</string>
     <string name="no_input_branch">请输入支行</string>
     <string name="no_rp">手慢了, 红包派完了</string>
+    <string name="no_rp_normal">该红包已被领取</string>
     <string name="no_sel_branch">请选择支行</string>
     <string name="no_sel_city">请选择市</string>
     <string name="no_sel_province">请选择省</string>

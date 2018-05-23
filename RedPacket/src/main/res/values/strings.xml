@@ -1,6 +1,6 @@
 <resources>
     <!--发红包-->
-    <string name="jrmf_send_rp_title">发红包</string>
+    <string name="jrmf_send_rp_title">红包</string>
     <string name="_bribery_message">恭喜发财，大吉大利！</string>
     <string name="btn_put">塞钱进红包</string>
     <string name="jrmf_rp_default_name">云红包</string>
@@ -119,6 +119,7 @@
 
     <!--红包显示-->
     <string name="no_rp">手慢了, 红包派完了</string>
+    <string name="no_rp_normal">该红包已被领取</string>
     <string name="rp_expire">该红包已超过24小时。如已领取,可在"我的红包"中查看</string>
 
 
@@ -140,6 +141,7 @@
     <string name="jrmf_money_yuan3">%1$s元</string>
     <string name="jrmf_rp_time_out">已过期</string>
     <string name="jrmf_rp_receive_rate">已领完%1$s/%2$s</string>
+    <string name="jrmf_rp_receiving_rate">已领%1$s/%2$s</string>
     <string name="jrmf_rp_receive">收到的红包</string>
     <string name="jrmf_rp_receive2">收到的红包</string>
     <string name="jrmf_rp_send">发出的红包</string>

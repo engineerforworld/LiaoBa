@@ -1,6 +1,5 @@
 package io.rong.callkit;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -30,9 +29,10 @@ import io.rong.imlib.model.UserInfo;
 /**
  * Created by weiqinxiao on 16/3/15.
  */
-public class CallSelectMemberActivity extends Activity {
+public class CallSelectMemberActivity extends BaseNoActionBarActivity {
 
     ArrayList<String> selectedMember;
+    private ArrayList<String> observerMember;
     TextView txtvStart;
     ListAdapter mAdapter;
     ListView mList;
@@ -57,6 +57,7 @@ public class CallSelectMemberActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent();
                 intent.putStringArrayListExtra("invited", selectedMember);
+                intent.putStringArrayListExtra("observers", observerMember);
                 setResult(RESULT_OK, intent);
                 CallSelectMemberActivity.this.finish();
             }
@@ -71,6 +72,7 @@ public class CallSelectMemberActivity extends Activity {
         });
 
         selectedMember = new ArrayList<>();
+        observerMember = new ArrayList<>();
 
         Intent intent = getIntent();
         int type = intent.getIntExtra("mediaType", RongCallCommon.CallMediaType.VIDEO.getValue());
@@ -110,12 +112,27 @@ public class CallSelectMemberActivity extends Activity {
                     String userId = (String) v.getTag();
                     if (!invitedMembers.contains(userId)) {
                         if (mMediaType.equals(RongCallCommon.CallMediaType.VIDEO)
-                                && !v.isSelected() && selectedMember.size() + invitedMembers.size() >= 9) {
-                            Toast.makeText(CallSelectMemberActivity.this,
-                                    String.format(getString(R.string.rc_voip_over_limit), 9),
-                                    Toast.LENGTH_SHORT)
-                                    .show();
-                            return;
+                                && !v.isSelected() && selectedMember.size() + invitedMembers.size() == 6) {
+//                            Toast.makeText(CallSelectMemberActivity.this,
+//                                    String.format(getString(R.string.rc_voip_over_limit), 9),
+//                                    Toast.LENGTH_SHORT)
+//                                    .show();
+//                            return;
+
+                            CallPromptDialog dialog = CallPromptDialog.newInstance(CallSelectMemberActivity.this, getString(R.string.rc_voip_video_observer));
+                            dialog.setPromptButtonClickedListener(new CallPromptDialog.OnPromptButtonClickedListener() {
+                                @Override
+                                public void onPositiveButtonClicked() {
+                                }
+
+                                @Override
+                                public void onNegativeButtonClicked() {
+
+                                }
+                            });
+                            dialog.disableCancel();
+                            dialog.setCancelable(false);
+                            dialog.show();
                         }
                         if (selectedMember.contains(userId)) {
                             selectedMember.remove(userId);
@@ -125,7 +142,9 @@ public class CallSelectMemberActivity extends Activity {
                         if (v.isSelected()) {
                             selectedMember.add(userId);
                         }
-
+                        if (selectedMember.size() > 6) {
+                            observerMember.add(userId);
+                        }
                         if (selectedMember.size() > 0) {
                             txtvStart.setEnabled(true);
                             txtvStart.setTextColor(getResources().getColor(R.color.rc_voip_check_enable));

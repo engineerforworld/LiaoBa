@@ -117,7 +117,33 @@ public class RongCallKit {
     }
 
     /**
+     *  发起的多人通话，不依赖群、讨论组等
+     * @param context
+     * @param userIds 邀请的成员
+     * @param oberverIds 邀请的以观察者身份加入房间的成员
+     * @param mediaType
+     */
+    public static void startMultiCall(final Context context, ArrayList<String> userIds, ArrayList<String> oberverIds, final CallMediaType mediaType) {
+        String action;
+        if (mediaType.equals(CallMediaType.CALL_MEDIA_TYPE_AUDIO)) {
+            action = RongVoIPIntent.RONG_INTENT_ACTION_VOIP_MULTIAUDIO;
+        } else {
+            action = RongVoIPIntent.RONG_INTENT_ACTION_VOIP_MULTIVIDEO;
+        }
+        Intent intent = new Intent(action);
+        userIds.add(RongIMClient.getInstance().getCurrentUserId());
+        intent.putExtra("conversationType", Conversation.ConversationType.NONE.getName().toLowerCase());
+        intent.putExtra("callAction", RongCallAction.ACTION_OUTGOING_CALL.getName());
+        intent.putStringArrayListExtra("invitedUsers", userIds);
+        intent.putStringArrayListExtra("observerUsers", oberverIds);
+        intent.setPackage(context.getPackageName());
+        context.startActivity(intent);
+    }
+
+    /**
      * 发起的多人通话，不依赖群、讨论组等
+     * <p>
+     * <a href="http://support.rongcloud.cn/kb/Njcy">如何实现不基于于群组的voip</a>
      *
      * @param context
      * @param mediaType
@@ -135,6 +161,7 @@ public class RongCallKit {
         intent.putExtra("conversationType", Conversation.ConversationType.NONE.getName().toLowerCase());
         intent.putExtra("callAction", RongCallAction.ACTION_OUTGOING_CALL.getName());
         intent.putStringArrayListExtra("invitedUsers", userIds);
+        intent.setPackage(context.getPackageName());
         context.startActivity(intent);
     }
 
@@ -160,6 +187,23 @@ public class RongCallKit {
             }
         }
 
+        if (isInVoipCall(context)) {
+            return false;
+        }
+        if (!RongIMClient.getInstance().getCurrentConnectionStatus().equals(RongIMClient.ConnectionStatusListener.ConnectionStatus.CONNECTED)) {
+            Toast.makeText(context, context.getResources().getString(io.rong.callkit.R.string.rc_voip_call_network_error), Toast.LENGTH_SHORT).show();
+            return false;
+        }
+        return true;
+    }
+
+    /**
+     * 是否在VOIP通话中
+     *
+     * @param context
+     * @return 是否在VOIP通话中
+     */
+    public static boolean isInVoipCall(Context context) {
         RongCallSession callSession = RongCallClient.getInstance().getCallSession();
         if (callSession != null && callSession.getActiveTime() > 0) {
             Toast.makeText(context,
@@ -168,13 +212,9 @@ public class RongCallKit {
                             context.getResources().getString(R.string.rc_voip_call_video_start_fail),
                     Toast.LENGTH_SHORT)
                     .show();
-            return false;
+            return true;
         }
-        if (!RongIMClient.getInstance().getCurrentConnectionStatus().equals(RongIMClient.ConnectionStatusListener.ConnectionStatus.CONNECTED)) {
-            Toast.makeText(context, context.getResources().getString(io.rong.callkit.R.string.rc_voip_call_network_error), Toast.LENGTH_SHORT).show();
-            return false;
-        }
-        return true;
+        return false;
     }
 
     /**

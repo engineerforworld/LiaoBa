@@ -33,6 +33,7 @@ public class RongCallModule implements IExternalModule {
     @Override
     public void onInitialized(String appKey) {
         RongIM.registerMessageTemplate(new CallEndMessageItemProvider());
+        RongIM.registerMessageTemplate(new MultiCallEndMessageProvider());
     }
 
     @Override

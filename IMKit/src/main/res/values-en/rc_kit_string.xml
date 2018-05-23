@@ -49,6 +49,7 @@
     <string name="rc_dialog_item_message_delete">Delete</string>
     <string name="rc_dialog_item_message_copy">Copy</string>
     <string name="rc_dialog_item_message_recall">Recall</string>
+    <string name="rc_dialog_item_message_more">More&#8230;</string>
     <string name="rc_recall_failed">Recall failed</string>
     <string name="rc_you_recalled_a_message">You have recalled a message</string>
     <string name="rc_recalled_a_message">&#160; has recalled a message</string>
@@ -142,7 +143,7 @@
 
     <!-- LargePictureActivity -->
     <string name="rc_save_picture">Save Photo</string>
-    <string name="rc_save_picture_at">Picture saved at %s</string>
+    <string name="rc_save_picture_at">Picture saved success</string>
     <string name="rc_src_file_not_found">Source file not found.</string>
 
     <string name="rc_blacklist_prompt">You have been added to blacklist</string>
@@ -158,6 +159,8 @@
     <string name="rc_android.permission.RECORD_AUDIO">Microphone</string>
     <string name="rc_android.permission.READ_EXTERNAL_STORAGE">Storage</string>
     <string name="rc_android.permission.WRITE_EXTERNAL_STORAGE">Storage</string>
+    <string name="rc_android.permission.READ_PHONE_STATE">Phone</string>
+    <string name="rc_android.permission.PROCESS_OUTGOING_CALLS">Phone</string>
 
     <string name="rc_ac_file_download_preview">File Preview</string>
     <string name="rc_ac_file_manager_category_title">Search according to type</string>
@@ -197,6 +200,7 @@
     <string name="rc_ac_file_preview_deleted">File has expired or has already been cleared</string>
     <string name="rc_fr_file_list_most_selected_files">You can only choose 20 files</string>
     <string name="rc_ac_file_download_request_permission">You have to grant permissions in setting</string>
+    <string name="rc_fr_file_size_limit">File size can not exceed %dM </string>
     <string name="rc_ac_file_download_request_permission_sure">OK</string>
     <string name="rc_ac_file_download_request_permission_cancel">Cancel</string>
     <string name="rc_read_receipt_status">%d read</string>

@@ -42,6 +42,7 @@
     <string name="rc_dialog_item_message_delete">删除消息</string>
     <string name="rc_dialog_item_message_copy">复制消息</string>
     <string name="rc_dialog_item_message_recall">撤回消息</string>
+    <string name="rc_dialog_item_message_more">更多&#8230;</string>
     <string name="rc_recall_failed">撤回失败</string>
     <string name="rc_you_recalled_a_message">你撤回了一条消息</string>
     <string name="rc_recalled_a_message">&#160;撤回了一条消息</string>
@@ -72,7 +73,7 @@
     <string name="rc_voice_short">录音时间太短</string>
     <string name="rc_voice_failure">录音失败！</string>
     <string name="rc_voice_too_long">录制时间超长</string>
-    <string name="rc_voip_occupying">声音通道正被占用，请稍后再试</string>
+    <string name="rc_voip_occupying">声音通道被占用，请稍后再试</string>
 
 
     <string name="rc_pub_service_info_description">功能介绍</string>
@@ -144,7 +145,7 @@
 
     <!-- LargePictureActivity -->
     <string name="rc_save_picture">保存图片</string>
-    <string name="rc_save_picture_at">图片保存在%s</string>
+    <string name="rc_save_picture_at">图片保存成功</string>
     <string name="rc_src_file_not_found">源文件不存在</string>
 
     <string name="rc_blacklist_prompt">您已被加入黑名单</string>
@@ -189,6 +190,7 @@
     <string name="rc_ac_file_preview_download_cancel">已取消下载</string>
     <string name="rc_ac_file_preview_deleted">文件已过期或已被清理</string>
     <string name="rc_fr_file_list_most_selected_files">您最多只能选择20个文件</string>
+    <string name="rc_fr_file_size_limit">您选择的文件不能超过 %dM </string>
     <string name="rc_ac_file_download_request_permission">您需要在设置里打开读写权限</string>
     <string name="rc_ac_file_download_request_permission_sure">确定</string>
     <string name="rc_ac_file_download_request_permission_cancel">取消</string>
@@ -219,6 +221,8 @@
     <string name="rc_android.permission.RECORD_AUDIO">麦克风</string>
     <string name="rc_android.permission.READ_EXTERNAL_STORAGE">存储空间</string>
     <string name="rc_android.permission.WRITE_EXTERNAL_STORAGE">存储空间</string>
+    <string name="rc_android.permission.READ_PHONE_STATE">电话</string>
+    <string name="rc_android.permission.PROCESS_OUTGOING_CALLS">电话</string>
 
     <string name="rc_real_time_location_summary">我发起了位置共享</string>
     <string name="rc_real_time_location_sharing">发起了位置共享</string>

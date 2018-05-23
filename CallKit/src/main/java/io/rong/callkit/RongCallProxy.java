@@ -75,9 +75,9 @@ public class RongCallProxy implements IRongCallListener {
     }
 
     @Override
-    public void onRemoteUserJoined(String userId, RongCallCommon.CallMediaType mediaType, SurfaceView remoteVideo) {
+    public void onRemoteUserJoined(String userId, RongCallCommon.CallMediaType mediaType, int userType, SurfaceView remoteVideo) {
         if (mCallListener != null) {
-            mCallListener.onRemoteUserJoined(userId, mediaType, remoteVideo);
+            mCallListener.onRemoteUserJoined(userId, mediaType, userType, remoteVideo);
         }
     }
 
@@ -113,6 +113,55 @@ public class RongCallProxy implements IRongCallListener {
     public void onRemoteCameraDisabled(String userId, boolean disabled) {
         if (mCallListener != null) {
             mCallListener.onRemoteCameraDisabled(userId, disabled);
+        }
+    }
+
+    @Override
+    public void onWhiteBoardURL(String url) {
+        if (mCallListener != null) {
+            mCallListener.onWhiteBoardURL(url);
+        }
+    }
+
+    @Override
+    public void onNetWorkLossRate(int lossRate) {
+        if (mCallListener != null) {
+            mCallListener.onNetWorkLossRate(lossRate);
+        }
+    }
+
+    @Override
+    public void onNotifySharingScreen(String userId, boolean isSharing) {
+        if (mCallListener != null) {
+            mCallListener.onNotifySharingScreen(userId, isSharing);
+        }
+    }
+
+    @Override
+    public void onNotifyDegradeNormalUserToObserver(String userId) {
+        if (mCallListener != null) {
+            mCallListener.onNotifyDegradeNormalUserToObserver(userId);
+        }
+    }
+
+    @Override
+    public void onNotifyAnswerObserverRequestBecomeNormalUser(String userId, long status) {
+        if (mCallListener != null) {
+            mCallListener.onNotifyAnswerObserverRequestBecomeNormalUser(userId, status);
+        }
+    }
+
+    @Override
+    public void onNotifyUpgradeObserverToNormalUser() {
+        if (mCallListener != null) {
+            mCallListener.onNotifyUpgradeObserverToNormalUser();
+        }
+    }
+
+    @Override
+    public void onNotifyHostControlUserDevice(String userId, int dType, int isOpen) {
+        if (mCallListener != null) {
+            mCallListener.onNotifyHostControlUserDevice(userId, dType, isOpen);
         }
     }
 

@@ -25,7 +25,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_notification_action.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/layout/notification_action.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/layout/notification_action.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_ic_location.xml.flat",
@@ -33,7 +33,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_notification_template_lines_media.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/685cb1663ebd01a25b0632aa371f9476/res/layout/notification_template_lines_media.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/096c9b1bad5689c6e4e08a92bee7a527/res/layout/notification_template_lines_media.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_voip_audio_answer_selector.xml.flat",
@@ -116,6 +116,10 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_ed_pub_service_search_hover.9.png"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_ext_bg_edit_text_white.xml.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable/rc_ext_bg_edit_text_white.xml"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ext_plugin_toggle_hover.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_ext_plugin_toggle_hover.png"
     },
@@ -156,6 +160,10 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/layout/rc_ac_file_preview_content.xml"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_voip_whiteboard.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_voip_whiteboard.png"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_file_icon_word.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_file_icon_word.png"
     },
@@ -173,7 +181,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_notification_template_icon_group.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/layout/notification_template_icon_group.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_ed_public_service_search_selector.xml.flat",
@@ -241,7 +249,11 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout-v21_notification_template_icon_group.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/layout-v21/notification_template_icon_group.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_location_search_title_bar.xml.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/layout/rc_location_search_title_bar.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_send_voice_one.png.flat",
@@ -280,20 +292,20 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/layout/rc_location_preview_activity.xml"
     },
     {
-        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f64a.png.flat",
-        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u1f64a.png"
-    },
-    {
-        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f44a.png.flat",
-        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u1f44a.png"
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_mebmer_delete.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_mebmer_delete.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_progress_sending_style.xml.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable/rc_progress_sending_style.xml"
     },
     {
-        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_mebmer_delete.png.flat",
-        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_mebmer_delete.png"
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f44a.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u1f44a.png"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f64a.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u1f64a.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ic_voice_sent_play2.png.flat",
@@ -336,12 +348,12 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_ext_plugin_image_pressed.png"
     },
     {
-        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_an_voice_sent.xml.flat",
-        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable/rc_an_voice_sent.xml"
-    },
-    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_btn_public_service_unfollow_selector.xml.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable/rc_btn_public_service_unfollow_selector.xml"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_an_voice_sent.xml.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable/rc_an_voice_sent.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_switch_btn.xml.flat",
@@ -425,7 +437,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_notification_template_part_time.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/layout/notification_template_part_time.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_corner_voice_style.xml.flat",
@@ -437,7 +449,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout-v21_notification_action.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/layout-v21/notification_action.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/layout-v21/notification_action.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ic_files_pressed.png.flat",
@@ -449,7 +461,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-v21_notification_action_background.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-v21/notification_action_background.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-v21/notification_action_background.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_emoji_grid_item_selector.xml.flat",
@@ -524,8 +536,16 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_pb_file_download_progress_progress.9.png"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_nearby_checked.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_nearby_checked.png"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_voice_input_selector.xml.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable/rc_voice_input_selector.xml"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_voip_signal_3.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_voip_signal_3.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_no.png.flat",
@@ -609,11 +629,11 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_notification_media_cancel_action.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/685cb1663ebd01a25b0632aa371f9476/res/layout/notification_media_cancel_action.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/096c9b1bad5689c6e4e08a92bee7a527/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_voip_multi_video_top_view.xml.flat",
@@ -633,7 +653,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f621.png.flat",
@@ -644,16 +664,24 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_menu_text_hover.png"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_voip_signal_1.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_voip_signal_1.png"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_btn_public_service_enter_selector.xml.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable/rc_btn_public_service_enter_selector.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_ext_emoticon_tab_item.xml.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/layout/rc_ext_emoticon_tab_item.xml"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_voip_msg_multi_call_end.xml.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/layout/rc_voip_msg_multi_call_end.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_real_time_location_exit.png.flat",
@@ -681,7 +709,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_notification_bg.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable/notification_bg.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_notification_network_available.png.flat",
@@ -737,7 +765,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_notification_icon_background.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable/notification_icon_background.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_voip_minimize.png.flat",
@@ -781,7 +809,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_notification_template_media_custom.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/685cb1663ebd01a25b0632aa371f9476/res/layout/notification_template_media_custom.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/096c9b1bad5689c6e4e08a92bee7a527/res/layout/notification_template_media_custom.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_item_progress.xml.flat",
@@ -792,12 +820,12 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_btn_send_hover.9.png"
     },
     {
-        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f605.png.flat",
-        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u1f605.png"
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_voip_signal_2.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_voip_signal_2.png"
     },
     {
-        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_notification_template_custom_big.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/layout/notification_template_custom_big.xml"
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f605.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u1f605.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ext_location_tip.png.flat",
@@ -837,7 +865,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_conversation_list_msg_send_failure.png.flat",
@@ -852,12 +880,20 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u1f608.png"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_search_icon.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_search_icon.png"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_cs_group_dialog_ok_selector.xml.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable/rc_cs_group_dialog_ok_selector.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_plugin_default.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_plugin_default.png"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ext_search_loading.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_ext_search_loading.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_ic_video_selector.xml.flat",
@@ -881,7 +917,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_notification_template_big_media_narrow.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/685cb1663ebd01a25b0632aa371f9476/res/layout/notification_template_big_media_narrow.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/096c9b1bad5689c6e4e08a92bee7a527/res/layout/notification_template_big_media_narrow.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_btn_pub_service_follow_hover.png.flat",
@@ -898,6 +934,10 @@
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_ic_star_selector.xml.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable/rc_ic_star_selector.xml"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ic_multi_delete_enable.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_ic_multi_delete_enable.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_notification_connecting_animated.xml.flat",
@@ -949,7 +989,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f35a.png.flat",
@@ -986,6 +1026,10 @@
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f60d.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u1f60d.png"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_voip_item_selector.xml.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/drawable/rc_voip_item_selector.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_rt_location_arrow.png.flat",
@@ -1065,7 +1109,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_notification_media_action.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/685cb1663ebd01a25b0632aa371f9476/res/layout/notification_media_action.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/096c9b1bad5689c6e4e08a92bee7a527/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u2615.png.flat",
@@ -1100,8 +1144,16 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_menu_trangle.png"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_voip_disable_camera_selector.xml.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/drawable/rc_voip_disable_camera_selector.xml"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u270b.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u270b.png"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_voip_dialog_popup_prompt.xml.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/layout/rc_voip_dialog_popup_prompt.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_rt_location_bar.png.flat",
@@ -1133,7 +1185,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/685cb1663ebd01a25b0632aa371f9476/res/layout/notification_template_big_media_narrow_custom.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/096c9b1bad5689c6e4e08a92bee7a527/res/layout/notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u26bd.png.flat",
@@ -1165,7 +1217,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_notification_tile_bg.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable/notification_tile_bg.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable/notification_tile_bg.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_cs_item_single_choice.xml.flat",
@@ -1174,6 +1226,10 @@
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_voip_listitem_select_member.xml.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/layout/rc_voip_listitem_select_member.xml"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_voip_pop_menu.xml.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/layout/rc_voip_pop_menu.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_ext_menu_container.xml.flat",
@@ -1252,6 +1308,10 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u1f3b2.png"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_select_multi_delete.xml.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable/rc_select_multi_delete.xml"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ext_my_locator.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_ext_my_locator.png"
     },
@@ -1285,7 +1345,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f436.png.flat",
@@ -1372,6 +1432,10 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u1f62d.png"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_location_marker.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_location_marker.png"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_back_icon.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_back_icon.png"
     },
@@ -1409,7 +1473,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_praise_hover.png.flat",
@@ -1457,7 +1521,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_notification_bg_low.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable/notification_bg_low.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u2614.png.flat",
@@ -1513,7 +1577,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout-v21_notification_action_tombstone.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/layout-v21/notification_action_tombstone.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_picsel_back_normal.png.flat",
@@ -1624,12 +1688,20 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_ic_volume_8.png"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_voip_add.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_voip_add.png"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_emotion_toggle_hover.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_emotion_toggle_hover.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u2601.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u2601.png"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_voip_menu_bg.9.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_voip_menu_bg.9.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_voip_icon_checkbox_hover.png.flat",
@@ -1657,7 +1729,11 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_notification_action_tombstone.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/layout/notification_action_tombstone.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_voip_more.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_voip_more.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ad_list_folder_icon.png.flat",
@@ -1725,7 +1801,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-mdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f611.png.flat",
@@ -1752,6 +1828,10 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/layout/rc_ac_picture_pager.xml"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ext_search_cancel.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_ext_search_cancel.png"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_ext_emoji_grid_view.xml.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/layout/rc_ext_emoji_grid_view.xml"
     },
@@ -1766,6 +1846,10 @@
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ad_list_pdf_icon.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_ad_list_pdf_icon.png"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_location_search_item.xml.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/layout/rc_location_search_item.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_voip_float_bg.xml.flat",
@@ -1794,6 +1878,10 @@
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ic_message_block.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_ic_message_block.png"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ic_multi_delete.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_ic_multi_delete.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_file_icon_picture.png.flat",
@@ -1864,6 +1952,10 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u1f44f.png"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_voip_handup.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_voip_handup.png"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f3b5.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u1f3b5.png"
     },
@@ -1873,7 +1965,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_wi_notice.xml.flat",
@@ -1930,6 +2022,10 @@
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_ext_plugin_location_selector.xml.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable/rc_ext_plugin_location_selector.xml"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_voip_observer_hint.xml.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/layout/rc_voip_observer_hint.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_notification_realtime_location.xml.flat",
@@ -1993,7 +2089,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_notification_template_part_chronometer.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/layout/notification_template_part_chronometer.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_item_rich_content_message.xml.flat",
@@ -2005,7 +2101,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_notification_template_big_media_custom.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/685cb1663ebd01a25b0632aa371f9476/res/layout/notification_template_big_media_custom.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/096c9b1bad5689c6e4e08a92bee7a527/res/layout/notification_template_big_media_custom.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f60a.png.flat",
@@ -2021,7 +2117,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout-v16_notification_template_custom_big.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/layout-v16/notification_template_custom_big.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/layout-v16/notification_template_custom_big.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ic_volume_6.png.flat",
@@ -2045,7 +2141,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ad_list_audio_icon.png.flat",
@@ -2085,7 +2181,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout-v21_notification_template_custom_big.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/layout-v21/notification_template_custom_big.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f44d.png.flat",
@@ -2149,7 +2245,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ic_location_pressed.png.flat",
@@ -2176,6 +2272,10 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_cs_resolved_hover.png"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_voip_signal_4.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_voip_signal_4.png"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_input_sub_menu_bg.9.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_input_sub_menu_bg.9.png"
     },
@@ -2198,6 +2298,10 @@
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_btn_pub_service_enter_hover.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_btn_pub_service_enter_hover.png"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_map_nearby_info_item.xml.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/layout/rc_map_nearby_info_item.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_voip_call_bottom_connected_button_layout.xml.flat",
@@ -2256,8 +2360,12 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/layout/rc_ext_root_menu_item.xml"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ext_back.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_ext_back.png"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ic_checkbox_none.png.flat",
@@ -2288,6 +2396,10 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_voip_icon_checkbox_normal.png"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_voip_signal_5.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_voip_signal_5.png"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f61a.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u1f61a.png"
     },
@@ -2313,7 +2425,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_item_preview_fragment.xml.flat",
@@ -2352,6 +2464,10 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_complete.png"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_voip_signal_6.png.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_voip_signal_6.png"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_ic_voice_receive_play1.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_ic_voice_receive_play1.png"
     },
@@ -2372,6 +2488,10 @@
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u1f62e.png"
     },
     {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_location_search_activity.xml.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/layout/rc_location_search_activity.xml"
+    },
+    {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f615.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/u1f615.png"
     },
@@ -2382,6 +2502,10 @@
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_read_receipt_request_hover.png.flat",
         "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/rc_read_receipt_request_hover.png"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_voip_dialog_bg.xml.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/bundles/debug/res/drawable/rc_voip_dialog_bg.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_unread_msg_bg_style.xml.flat",
@@ -2441,7 +2565,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_notification_template_big_media.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/685cb1663ebd01a25b0632aa371f9476/res/layout/notification_template_big_media.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/096c9b1bad5689c6e4e08a92bee7a527/res/layout/notification_template_big_media.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_white_bg_shape.xml.flat",
@@ -2469,7 +2593,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_u1f52b.png.flat",
@@ -2481,7 +2605,11 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_notification_template_media.xml.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/685cb1663ebd01a25b0632aa371f9476/res/layout/notification_template_media.xml"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/096c9b1bad5689c6e4e08a92bee7a527/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/layout_rc_ext_actions_container.xml.flat",
+        "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMKit/build/intermediates/bundles/debug/res/layout/rc_ext_actions_container.xml"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable_rc_cs_corner_single_check_style.xml.flat",
@@ -2497,7 +2625,7 @@
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c6e8559b815fb8b9d47c9836b2fcaabd/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/19f4f632ee9dbfb7b87e0f8bca115465/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_rc_edit_text_background_hover.9.png.flat",

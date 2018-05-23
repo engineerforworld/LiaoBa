@@ -30,4 +30,10 @@
     <color name="rc_popup_dialog_prompt_cancel_color">#999999</color>
     <color name="rc_popup_dialog_prompt_clear_color">#f43530</color>
     <color name="rc_popup_dialog_text_color">#353535</color>
+    <color name="rc_ext_root_menu_item_text_color">#353535</color>
+    <color name="rc_ext_sub_menu_item_text_color">#828282</color>
+    <color name="rc_map_list_divider_color">#e5e5e5</color>
+    <color name="rc_map_list_text_color">#262626</color>
+    <color name="rc_map_list_text_grey_color">#939393</color>
+    <color name="rc_map_search_highlight_color">#0099ff</color>
 </resources>

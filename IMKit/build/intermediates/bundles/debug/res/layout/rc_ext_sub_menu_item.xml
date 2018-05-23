@@ -12,8 +12,8 @@
         android:layout_height="wrap_content"
         android:singleLine="true"
         android:padding="10dp"
-        android:textSize="14sp"
-        android:textColor="#828282"
+        android:textSize="@dimen/rc_ext_sub_menu_item_text_size"
+        android:textColor="@color/rc_ext_sub_menu_item_text_color"
         android:layout_gravity="center" />
 
     <View

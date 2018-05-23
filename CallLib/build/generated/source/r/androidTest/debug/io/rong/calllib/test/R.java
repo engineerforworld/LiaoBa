@@ -146,11 +146,10 @@ public final class R {
     public static final int notification_main_column_container=0x7f060012;
     public static final int right_icon=0x7f060013;
     public static final int right_side=0x7f060014;
-    public static final int tag_transition_group=0x7f060015;
-    public static final int text=0x7f060016;
-    public static final int text2=0x7f060017;
-    public static final int time=0x7f060018;
-    public static final int title=0x7f060019;
+    public static final int text=0x7f060015;
+    public static final int text2=0x7f060016;
+    public static final int time=0x7f060017;
+    public static final int title=0x7f060018;
   }
   public static final class integer {
     public static final int status_bar_notification_info_maxnum=0x7f070000;
@@ -284,62 +283,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_font io.rong.calllib.test:font}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_fontStyle io.rong.calllib.test:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_fontWeight io.rong.calllib.test:fontWeight}</code></td><td></td></tr>
      * </table>
-     * @see #FontFamilyFont_android_font
-     * @see #FontFamilyFont_android_fontWeight
-     * @see #FontFamilyFont_android_fontStyle
      * @see #FontFamilyFont_font
      * @see #FontFamilyFont_fontStyle
      * @see #FontFamilyFont_fontWeight
      */
     public static final int[] FontFamilyFont={
-        0x01010532, 0x01010533, 0x0101053f, 0x7f010000, 
-        0x7f010007, 0x7f010008
+        0x7f010000, 0x7f010007, 0x7f010008
       };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#font}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:font
-     */
-    public static final int FontFamilyFont_android_font=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#fontWeight}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name android:fontWeight
-     */
-    public static final int FontFamilyFont_android_fontWeight=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#fontStyle}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>italic</td><td>1</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:fontStyle
-     */
-    public static final int FontFamilyFont_android_fontStyle=2;
     /**
      * <p>This symbol is the offset where the {@link io.rong.calllib.test.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
@@ -351,7 +305,7 @@ public final class R {
      *
      * @attr name io.rong.calllib.test:font
      */
-    public static final int FontFamilyFont_font=3;
+    public static final int FontFamilyFont_font=0;
     /**
      * <p>This symbol is the offset where the {@link io.rong.calllib.test.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
@@ -368,7 +322,7 @@ public final class R {
      *
      * @attr name io.rong.calllib.test:fontStyle
      */
-    public static final int FontFamilyFont_fontStyle=4;
+    public static final int FontFamilyFont_fontStyle=1;
     /**
      * <p>This symbol is the offset where the {@link io.rong.calllib.test.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
@@ -377,6 +331,6 @@ public final class R {
      *
      * @attr name io.rong.calllib.test:fontWeight
      */
-    public static final int FontFamilyFont_fontWeight=5;
+    public static final int FontFamilyFont_fontWeight=2;
   }
 }

@@ -1,6 +1,7 @@
 package com.wwl.liaoba.Utils;
 
 import android.content.Context;
+import android.net.Uri;
 
 import com.wwl.liaoba.bean.User;
 
@@ -48,7 +49,7 @@ public class UserInfoManager {
     }
 
     public Group getGroupInfo(String groupId) {
-        Group group = new Group(Constants.groupid_1, Constants.groupName_1, null);
+        Group group = new Group(Constants.groupid_1, Constants.groupName_1, Uri.parse("https://www.baidu.com/img/bd_logo1.png?qua=high"));
         return group;
     }
 }

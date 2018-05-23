@@ -35,7 +35,9 @@
     <string name="rc_android.permission.ACCESS_COARSE_LOCATION">Location</string>
     <string name="rc_android.permission.ACCESS_FINE_LOCATION">Location</string>
     <string name="rc_android.permission.CAMERA">Camera</string>
+    <string name="rc_android.permission.PROCESS_OUTGOING_CALLS">Phone</string>
     <string name="rc_android.permission.READ_EXTERNAL_STORAGE">Storage</string>
+    <string name="rc_android.permission.READ_PHONE_STATE">Phone</string>
     <string name="rc_android.permission.RECORD_AUDIO">Microphone</string>
     <string name="rc_android.permission.WRITE_EXTERNAL_STORAGE">Storage</string>
     <string name="rc_android.settings.action.MANAGE_OVERLAY_PERMISSION">Draw Overlay</string>
@@ -79,6 +81,7 @@
     <string name="rc_dialog_cancel">Cancel</string>
     <string name="rc_dialog_item_message_copy">Copy</string>
     <string name="rc_dialog_item_message_delete">Delete</string>
+    <string name="rc_dialog_item_message_more">More…</string>
     <string name="rc_dialog_item_message_recall">Recall</string>
     <string name="rc_dialog_ok">OK</string>
     <string name="rc_discussion_nt_msg_for_add">"%1$s Invited %2$d members to join the discussion group"</string>
@@ -95,6 +98,8 @@
     <string name="rc_ext_exit_location_sharing">End Real-time Location now?</string>
     <string name="rc_ext_exit_location_sharing_confirm">End</string>
     <string name="rc_ext_location_permission_failed">You need to grant location permission in settings menu</string>
+    <string name="rc_ext_search">Search</string>
+    <string name="rc_ext_search_no_result">No results</string>
     <string name="rc_ext_send">Send</string>
     <string name="rc_ext_warning">Prompt</string>
     <string name="rc_file_not_exist">File does not exist</string>
@@ -106,6 +111,7 @@
     <string name="rc_fr_file_category_title_text">Document</string>
     <string name="rc_fr_file_category_title_video">Video</string>
     <string name="rc_fr_file_list_most_selected_files">You can only choose 20 files</string>
+    <string name="rc_fr_file_size_limit">File size can not exceed %dM </string>
     <string name="rc_fr_loading_file_message">Loading...</string>
     <string name="rc_fr_no_file_message"> No file %1$scurrently</string>
     <string name="rc_fr_storage_folder_list_no_files">"Can't read files in %1$s"</string>
@@ -130,8 +136,8 @@
     <string name="rc_item_quit_groups">" quited the group"</string>
     <string name="rc_item_remove_group_after_str">" from the group"</string>
     <string name="rc_item_remove_group_before_str">" remove "</string>
-    <string name="rc_item_remove_group_member">%1$s removed %2$s from the group chat</string>
-    <string name="rc_item_remove_self">%1$s are removed from the group by %2$s</string>
+    <string name="rc_item_remove_group_member">%1$s removed %2$s from the group</string>
+    <string name="rc_item_remove_self">%1$s were removed from the group by %2$s</string>
     <string name="rc_item_to_join_group">" join group"</string>
     <string name="rc_item_you">You</string>
     <string name="rc_join_chatroom_failure">Join chatroom failure</string>
@@ -172,6 +178,7 @@
     <string name="rc_notice_network_unavailable">Network unavailable, please check your network</string>
     <string name="rc_notice_select_one_picture_at_last">Please select at least a picture</string>
     <string name="rc_notice_tick">The account has been logged in to other devices</string>
+    <string name="rc_notification_channel_name">New Messages</string>
     <string name="rc_notification_new_msg">%1$s sent %2$d messages</string>
     <string name="rc_notification_new_plural_msg">%1$d contacts sent %2$d messages</string>
     <string name="rc_notification_ticker_text">You have a new message</string>
@@ -212,11 +219,11 @@
     <string name="rc_real_time_location_sharing">Location sharing...</string>
     <string name="rc_real_time_location_summary">Location sharing...</string>
     <string name="rc_recall_failed">Recall failed</string>
-    <string name="rc_recalled_a_message"> recalled a message</string>
+    <string name="rc_recalled_a_message">  has recalled a message</string>
     <string name="rc_rejected_by_blacklist_prompt">Your message have sent out, but rejected by the receiver</string>
     <string name="rc_saturday_format">Sat</string>
     <string name="rc_save_picture">Save Photo</string>
-    <string name="rc_save_picture_at">Picture saved at %s</string>
+    <string name="rc_save_picture_at">Picture saved success</string>
     <string name="rc_search">Search</string>
     <string name="rc_send_format">Send(%1$s)</string>
     <string name="rc_setting_clear_msg_fail">clear_massage fail</string>
@@ -292,5 +299,5 @@
     <string name="rc_yes">Yes</string>
     <string name="rc_yesterday_format">Yesterday</string>
     <string name="rc_you_are_sharing_location">You are sharing location</string>
-    <string name="rc_you_recalled_a_message">You recalled a message</string>
+    <string name="rc_you_recalled_a_message">You have recalled a message</string>
 </resources>

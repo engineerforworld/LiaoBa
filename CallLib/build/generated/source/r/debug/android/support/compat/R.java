@@ -85,11 +85,10 @@ public final class R {
         public static int notification_main_column_container = 0x7f0c0013;
         public static int right_icon = 0x7f0c0014;
         public static int right_side = 0x7f0c0015;
-        public static int tag_transition_group = 0x7f0c0016;
-        public static int text = 0x7f0c0017;
-        public static int text2 = 0x7f0c0018;
-        public static int time = 0x7f0c0019;
-        public static int title = 0x7f0c001a;
+        public static int text = 0x7f0c0016;
+        public static int text2 = 0x7f0c0017;
+        public static int time = 0x7f0c0018;
+        public static int title = 0x7f0c0019;
     }
     public static final class integer {
         public static int status_bar_notification_info_maxnum = 0x7f0d0001;
@@ -122,12 +121,9 @@ public final class R {
         public static int FontFamily_fontProviderFetchTimeout = 3;
         public static int FontFamily_fontProviderPackage = 4;
         public static int FontFamily_fontProviderQuery = 5;
-        public static int[] FontFamilyFont = { 0x01010532, 0x0101053f, 0x01010533, 0x7f040001, 0x7f040008, 0x7f040009 };
-        public static int FontFamilyFont_android_font = 0;
-        public static int FontFamilyFont_android_fontStyle = 1;
-        public static int FontFamilyFont_android_fontWeight = 2;
-        public static int FontFamilyFont_font = 3;
-        public static int FontFamilyFont_fontStyle = 4;
-        public static int FontFamilyFont_fontWeight = 5;
+        public static int[] FontFamilyFont = { 0x7f040001, 0x7f040008, 0x7f040009 };
+        public static int FontFamilyFont_font = 0;
+        public static int FontFamilyFont_fontStyle = 1;
+        public static int FontFamilyFont_fontWeight = 2;
     }
 }

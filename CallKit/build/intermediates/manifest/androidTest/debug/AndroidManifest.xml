@@ -3,7 +3,7 @@
     package="io.rong.callkit.test" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="23" />
 
     <instrumentation
@@ -31,10 +31,15 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CAPTURE_VIDEO_OUTPUT" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
-    <application android:debuggable="true" >
+    <application
+        android:debuggable="true"
+        android:supportsRtl="true" >
         <uses-library android:name="android.test.runner" />
         <!-- new voip config start -->
         <activity
@@ -79,9 +84,15 @@
             </intent-filter>
         </activity>
         <activity android:name="io.rong.callkit.CallSelectMemberActivity" />
-        <activity android:name="io.rong.imkit.plugin.location.AMapLocationActivity" />
+        <activity
+            android:name="io.rong.imkit.plugin.location.AMapLocationActivity"
+            android:screenOrientation="portrait" />
         <activity android:name="io.rong.imkit.plugin.location.AMapPreviewActivity" />
         <activity android:name="io.rong.imkit.plugin.location.AMapRealTimeActivity" />
+        <activity
+            android:name="io.rong.imkit.plugin.location.SearchLocationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
         <activity
             android:name="io.rong.imkit.plugin.image.PictureSelectorActivity"
             android:screenOrientation="portrait" />
@@ -126,7 +137,11 @@
         <activity
             android:name="io.rong.imkit.activity.CSLeaveMessageActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="portrait" /> <!-- imlib config begin -->
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.0.0" /> <!-- imlib config begin -->
         <meta-data
             android:name="RONG_CLOUD_APP_KEY"
             android:value="sfci50a7s456i" />
@@ -183,10 +198,6 @@
                 <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
             </intent-filter>
         </receiver>
-
-        <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

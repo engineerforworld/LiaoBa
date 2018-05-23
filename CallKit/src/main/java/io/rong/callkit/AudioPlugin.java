@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.widget.Toast;
 
@@ -19,6 +20,7 @@ import io.rong.common.RLog;
 import io.rong.imkit.RongExtension;
 import io.rong.imkit.RongIM;
 import io.rong.imkit.plugin.IPluginModule;
+import io.rong.imkit.plugin.IPluginRequestPermissionResultCallback;
 import io.rong.imkit.utilities.PermissionCheckUtil;
 import io.rong.imlib.RongIMClient;
 import io.rong.imlib.model.Conversation;
@@ -27,10 +29,11 @@ import io.rong.imlib.model.Discussion;
 /**
  * Created by weiqinxiao on 16/8/16.
  */
-public class AudioPlugin implements IPluginModule {
+public class AudioPlugin implements IPluginModule, IPluginRequestPermissionResultCallback {
     private static final String TAG = "AudioPlugin";
     private ArrayList<String> allMembers;
     private Context context;
+    private static final int REQEUST_CODE_RECORD_AUDIO_PERMISSION = 101;
 
     private Conversation.ConversationType conversationType;
     private String targetId;
@@ -47,15 +50,19 @@ public class AudioPlugin implements IPluginModule {
 
     @Override
     public void onClick(final Fragment currentFragment, final RongExtension extension) {
-        String[] permissions = {Manifest.permission.RECORD_AUDIO};
-        if (!PermissionCheckUtil.requestPermissions(currentFragment, permissions)) {
-            return;
-        }
-
         context = currentFragment.getActivity().getApplicationContext();
         conversationType = extension.getConversationType();
         targetId = extension.getTargetId();
 
+        String[] permissions = {Manifest.permission.RECORD_AUDIO};
+        if (PermissionCheckUtil.checkPermissions(currentFragment.getActivity(), permissions)) {
+            startAudioActivity(currentFragment, extension);
+        } else {
+            extension.requestPermissionForPluginResult(permissions, REQEUST_CODE_RECORD_AUDIO_PERMISSION, this);
+        }
+    }
+
+    private void startAudioActivity(Fragment currentFragment, final RongExtension extension) {
         RongCallSession profile = RongCallClient.getInstance().getCallSession();
         if (profile != null && profile.getActiveTime() > 0) {
             Toast.makeText(context,
@@ -131,5 +138,15 @@ public class AudioPlugin implements IPluginModule {
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.setPackage(context.getPackageName());
         context.getApplicationContext().startActivity(intent);
+    }
+
+    @Override
+    public boolean onRequestPermissionResult(Fragment fragment, RongExtension extension, int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        if (PermissionCheckUtil.checkPermissions(fragment.getActivity(), permissions)) {
+            startAudioActivity(fragment, extension);
+        } else {
+            extension.showRequestPermissionFailedAlter(PermissionCheckUtil.getNotGrantedPermissionMsg(context, permissions, grantResults));
+        }
+        return true;
     }
 }

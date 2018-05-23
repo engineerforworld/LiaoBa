@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.rong.callkit"
-    android:versionCode="2018011919"
-    android:versionName="2.8.27 Dev" >
+    android:versionCode="2018051621"
+    android:versionName="2.9.0 Dev" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />

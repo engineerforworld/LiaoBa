@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.rong.imkit"
-    android:versionCode="2018022610"
-    android:versionName="2.8.28 Dev" >
+    android:versionCode="2018051621"
+    android:versionName="2.9.0 Dev" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -31,9 +31,15 @@
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
 
     <application>
-        <activity android:name="io.rong.imkit.plugin.location.AMapLocationActivity" />
+        <activity
+            android:name="io.rong.imkit.plugin.location.AMapLocationActivity"
+            android:screenOrientation="portrait" />
         <activity android:name="io.rong.imkit.plugin.location.AMapPreviewActivity" />
         <activity android:name="io.rong.imkit.plugin.location.AMapRealTimeActivity" />
+        <activity
+            android:name="io.rong.imkit.plugin.location.SearchLocationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
         <activity
             android:name="io.rong.imkit.plugin.image.PictureSelectorActivity"
             android:screenOrientation="portrait" />

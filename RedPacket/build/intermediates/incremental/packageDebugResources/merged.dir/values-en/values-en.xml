@@ -148,6 +148,7 @@
     <string name="jrmf_rp_receive2">Total Number</string>
     <string name="jrmf_rp_receive_rate">Opened %1$s/%2$s</string>
     <string name="jrmf_rp_receive_rp">Open the red packets</string>
+    <string name="jrmf_rp_receiving_rate">Opened %1$s/%2$s</string>
     <string name="jrmf_rp_send">Sent packets</string>
     <string name="jrmf_rp_send_a_rp">Send a red packet</string>
     <string name="jrmf_rp_send_num">Total Number Sent %1$d</string>
@@ -206,6 +207,7 @@
     <string name="no_input_amount_toast">Please enter withdrawal amount.</string>
     <string name="no_input_branch">Please enter branch bank</string>
     <string name="no_rp">Better luck next time!</string>
+    <string name="no_rp_normal">The red envelope has been opened</string>
     <string name="no_sel_branch">Please choose branch bank</string>
     <string name="no_sel_city">Please choose city</string>
     <string name="no_sel_province">Please choose province</string>

@@ -5,10 +5,10 @@ android {
     buildToolsVersion '27'
 
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 23
-        versionCode 2018022610
-        versionName "2.8.28 Dev"
+        versionCode 2018051621
+        versionName "2.9.0 Dev"
     }
 
     sourceSets {
@@ -22,10 +22,10 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:support-compat:27.0.0'
+    compile 'com.android.support:support-compat:26.0.0'
 }
 
-repositories { flatDir { dirs '../push/aars' }
+repositories {
     maven {
         url 'https://maven.google.com/'
         name 'Google'

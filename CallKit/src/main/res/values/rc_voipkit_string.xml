@@ -12,8 +12,8 @@
     <string name="rc_voip_call_terminalted">通话结束</string>
     <string name="rc_voip_call_started">开始通话</string>
     <string name="rc_voip_select_member">选择成员</string>
-    <string name="rc_voip_call_audio_start_fail">正在音频通话中</string>
-    <string name="rc_voip_call_video_start_fail">正在视频通话中</string>
+    <string name="rc_voip_call_audio_start_fail">正在进行语音通话，请稍后再试</string>
+    <string name="rc_voip_call_video_start_fail">正在进行视频通话，请稍后再试</string>
     <string name="rc_voip_call_other">其它设备已处理</string>
 
     <string name="rc_voip_audio_call_inviting">邀请你进行语音聊天...</string>
@@ -48,4 +48,17 @@
     <string name="rc_audio_call_on_going">语音聊天中，轻击以继续</string>
     <string name="rc_video_call_on_going">视频聊天中，轻击以继续</string>
     <string name="rc_voip_over_limit">您最多只能选择%d人</string>
+    <string name="rc_voip_hand_up">举手发言</string>
+    <string name="rc_voip_add_member">添加成员</string>
+    <string name="rc_voip_whiteboard">白板</string>
+    <string name="rc_voip_ok">确认</string>
+    <string name="rc_voip_cancel">取消</string>
+    <string name="rc_voip_invite_to_normal">主持人邀请您参与讨论\n是否接受?</string>
+    <string name="rc_voip_ask_to_do">主持人请求您%1$s%2$s\n是否接受?</string>
+    <string name="rc_voip_mic">麦克风</string>
+    <string name="rc_voip_camera_mic">摄像头和麦克风</string>
+    <string name="rc_voip_open">打开</string>
+    <string name="rc_voip_close">关闭</string>
+    <string name="rc_voip_video_observer">为了保证会议流畅，后续用户只能以观众模式加入，是否继续？</string>
+    <string name="rc_voip_observer_hint">当前您的身份是观察者，其他人看不见您。\n如需发言请举手。</string>
 </resources>

@@ -5,10 +5,10 @@ android {
     buildToolsVersion '27.0.0'
 
     defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 23
-        versionCode 20171102
-        versionName "1.5.0"
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 20180207
+        versionName "1.5.1"
     }
     buildTypes {
         release {
@@ -29,4 +29,3 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.google.code.gson:gson:2.2.4'
 }
-repositories { flatDir { dirs '../push/aars' } }

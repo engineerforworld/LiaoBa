@@ -11,7 +11,7 @@
     <dimen name="half_base_margin">8dip</dimen>
     <dimen name="half_base_padding">8dip</dimen>
     <dimen name="round_radius">6dip</dimen>
-    <dimen name="jrmf_dimen_4">6dip</dimen>
+    <dimen name="jrmf_dimen_4">4dip</dimen>
 
 
     <!--钱包-->

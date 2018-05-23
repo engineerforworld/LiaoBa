@@ -4,7 +4,7 @@
             "outputFile": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/CallKit/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/685cb1663ebd01a25b0632aa371f9476/res/values-v24/values-v24.xml",
+                    "source": "/Users/wangwenliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/096c9b1bad5689c6e4e08a92bee7a527/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

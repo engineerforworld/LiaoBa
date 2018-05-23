@@ -69,7 +69,6 @@
             android:digits="0123456789xyzXYZ"
             android:gravity="center_vertical"
             android:hint="@string/jrmf_input_IDCard_num"
-            android:inputType="number"
             android:paddingRight="@dimen/base_padding"
             android:textColor="@color/black"
             android:textColorHint="@color/color_b7b7b7" />

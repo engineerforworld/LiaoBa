@@ -123,6 +123,7 @@
 
     <!--红包显示-->
     <string name="no_rp">Better luck next time!</string>
+    <string name="no_rp_normal">The red envelope has been opened</string>
     <string name="rp_expire">The red packet has been more than 24 hours. If you have received it, you can view it in "Red Packet"</string>
 
 
@@ -144,6 +145,7 @@
     <string name="jrmf_money_yuan3">￥%1$s</string>
     <string name="jrmf_rp_time_out">Expired</string>
     <string name="jrmf_rp_receive_rate">Opened %1$s/%2$s</string>
+    <string name="jrmf_rp_receiving_rate">Opened %1$s/%2$s</string>
     <string name="jrmf_rp_receive">Received Packets</string>
     <string name="jrmf_rp_receive2">Total Number</string>
     <string name="jrmf_rp_send">Sent packets</string>

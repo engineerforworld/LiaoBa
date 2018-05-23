@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMLib/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMLib/build/intermediates/bundles/debug/res/values-en/values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,128,216,286,362,454,533",
+                        "endColumns": "72,87,69,75,91,78,75",
+                        "endOffsets": "123,211,281,357,449,528,604"
+                    }
+                }
+            ]
+        }
+    ]
+}

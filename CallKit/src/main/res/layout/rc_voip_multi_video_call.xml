@@ -4,18 +4,28 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <FrameLayout
+    <io.rong.callkit.ContainerLayout
         android:id="@+id/rc_local_user_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:background="@color/rc_voip_background_color" />
+
+    <RelativeLayout
+        android:id="@+id/rc_whiteboard"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_below="@+id/rc_top_container"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="90dp"
+        android:layout_above="@+id/rc_bottom_button_container"
+        android:layout_height="match_parent">
+    </RelativeLayout>
 
     <LinearLayout
         android:id="@+id/rc_top_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
         <include layout="@layout/rc_voip_multi_video_top_view" />
     </LinearLayout>
 

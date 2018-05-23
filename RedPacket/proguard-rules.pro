@@ -133,6 +133,9 @@
 
 -keep class com.jrmf360.rylib.common.util.ToastUtil{*;}
 -keep class com.jrmf360.rylib.common.util.ToastUtil$* {*;}
+-keepclassmembers class com.jrmf360.rylib.common.util.RotateAnimationUtil{
+    <methods>;
+}
 
 -keep class com.jrmf360.rylib.common.view.**{*;}
 

@@ -16,6 +16,7 @@ import com.wwl.liaoba.bean.User;
 import java.util.ArrayList;
 
 import io.rong.imkit.RongIM;
+import io.rong.imlib.RongIMClient;
 
 
 public class SelectConversationActivity extends AppCompatActivity {
@@ -60,7 +61,17 @@ public class SelectConversationActivity extends AppCompatActivity {
         chatRoom1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                RongIM.getInstance().startChatRoomChat(SelectConversationActivity.this, "001", true);
+                RongIM.getInstance().joinChatRoom("001", 10, new RongIMClient.OperationCallback() {
+                    @Override
+                    public void onSuccess() {
+
+                    }
+
+                    @Override
+                    public void onError(RongIMClient.ErrorCode errorCode) {
+
+                    }
+                });
             }
         });
         chatRoom2.setOnClickListener(new View.OnClickListener() {

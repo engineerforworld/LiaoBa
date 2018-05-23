@@ -33,7 +33,7 @@
         android:layout_marginTop="3dp"
         android:layout_toRightOf="@id/rc_content"
         android:background="@android:color/transparent"
-        android:scaleType="fitCenter"
+        android:scaleType="center"
         android:src="@drawable/rc_ic_def_rich_content"
         app:RCDefDrawable="@drawable/rc_ic_def_rich_content" />
 

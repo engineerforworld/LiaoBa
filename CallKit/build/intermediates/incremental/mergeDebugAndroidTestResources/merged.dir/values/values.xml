@@ -406,11 +406,17 @@
     <color name="rc_divider_line">#ababad</color>
     <color name="rc_draft_color">#cb120f</color>
     <color name="rc_emoji_grid_item_bg">#ebebeb</color>
+    <color name="rc_ext_root_menu_item_text_color">#353535</color>
+    <color name="rc_ext_sub_menu_item_text_color">#828282</color>
     <color name="rc_extension_normal">#f4f4f6</color>
     <color name="rc_input_bg">#F4F4F4</color>
     <color name="rc_input_gap_color">#dbdbdd</color>
     <color name="rc_location_text">#7F000000</color>
     <color name="rc_main_theme">#0195ff</color>
+    <color name="rc_map_list_divider_color">#e5e5e5</color>
+    <color name="rc_map_list_text_color">#262626</color>
+    <color name="rc_map_list_text_grey_color">#939393</color>
+    <color name="rc_map_search_highlight_color">#0099ff</color>
     <color name="rc_mentioned_color">#cc3333</color>
     <color name="rc_message_user_name">#828282</color>
     <color name="rc_normal_bg">#EBEBEB</color>
@@ -450,6 +456,13 @@
     <color name="rc_voip_background_color">#262e42</color>
     <color name="rc_voip_check_disable">#1f4a76</color>
     <color name="rc_voip_check_enable">#0099ff</color>
+    <color name="rc_voip_color_backgroud_text">#B3000000</color>
+    <color name="rc_voip_color_divider_line">#E5E5E5</color>
+    <color name="rc_voip_color_normal_text">#262626</color>
+    <color name="rc_voip_color_primary">#3A91F3</color>
+    <color name="rc_voip_reminder_shadow">#33000000</color>
+    <color name="rc_voip_transparent">#00000000</color>
+    <color name="rc_voip_white">#FFFFFF</color>
     <color name="rc_web_progress_bar">#9fcdfd</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
@@ -458,6 +471,7 @@
             <flag name="square" value="0"/>
             <flag name="circle" value="1"/>
         </attr><attr format="reference" name="RCDefDrawable"/></declare-styleable>
+    <declare-styleable name="AutoLinkTextView"><attr format="dimension" name="RCMaxWidth"/></declare-styleable>
     <declare-styleable name="FontFamily"><attr format="string" name="fontProviderAuthority"/><attr format="string" name="fontProviderPackage"/><attr format="string" name="fontProviderQuery"/><attr format="reference" name="fontProviderCerts"/><attr name="fontProviderFetchStrategy">
             
             <enum name="blocking" value="0"/>
@@ -470,7 +484,7 @@
     <declare-styleable name="FontFamilyFont"><attr name="fontStyle">
             <enum name="normal" value="0"/>
             <enum name="italic" value="1"/>
-        </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/><attr name="android:fontStyle"/><attr name="android:font"/><attr name="android:fontWeight"/></declare-styleable>
+        </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/></declare-styleable>
     <declare-styleable name="RongExtension"><attr name="RCStyle">
             <enum name="SCE" value="0x123"/>
             <enum name="SC" value="0x120"/>
@@ -510,6 +524,14 @@
     <dimen name="rc_dimen_size_50">50dp</dimen>
     <dimen name="rc_dimen_size_7">7dp</dimen>
     <dimen name="rc_dimen_size_9">9dp</dimen>
+    <dimen name="rc_ext_location_nearby_list_max_height">351dp</dimen>
+    <dimen name="rc_ext_location_nearby_list_min_height">286dp</dimen>
+    <dimen name="rc_ext_more_imgage_height">30dp</dimen>
+    <dimen name="rc_ext_more_imgage_width">30dp</dimen>
+    <dimen name="rc_ext_more_layout_height">46dp</dimen>
+    <dimen name="rc_ext_root_menu_item_text_size">16sp</dimen>
+    <dimen name="rc_ext_sub_menu_item_text_size">14sp</dimen>
+    <dimen name="rc_extension_bar_min_height">48dp</dimen>
     <dimen name="rc_extension_board_height">282dp</dimen>
     <dimen name="rc_popup_dialog_distance_to_edge">40dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
@@ -573,7 +595,6 @@
     <item name="rc_user_name" type="id"/>
     <item name="rc_user_portrait" type="id"/>
     <item name="rc_warning" type="id"/>
-    <item name="tag_transition_group" type="id"/>
     <item name="text" type="id"/>
     <item name="text2" type="id"/>
     <item name="title" type="id"/>
@@ -583,6 +604,7 @@
     <integer name="rc_custom_service_evaluation_interval">60</integer>
     <integer name="rc_extension_emoji_count_per_page">20</integer>
     <integer name="rc_extension_plugin_count_per_page">8</integer>
+    <integer name="rc_file_transfer_max_size">100</integer>
     <integer name="rc_image_quality">85</integer>
     <integer name="rc_image_size">960</integer>
     <integer name="rc_message_recall_interval">180</integer>
@@ -623,7 +645,9 @@
     <string name="rc_android.permission.ACCESS_COARSE_LOCATION">位置信息</string>
     <string name="rc_android.permission.ACCESS_FINE_LOCATION">位置信息</string>
     <string name="rc_android.permission.CAMERA">相机</string>
+    <string name="rc_android.permission.PROCESS_OUTGOING_CALLS">电话</string>
     <string name="rc_android.permission.READ_EXTERNAL_STORAGE">存储空间</string>
+    <string name="rc_android.permission.READ_PHONE_STATE">电话</string>
     <string name="rc_android.permission.RECORD_AUDIO">麦克风</string>
     <string name="rc_android.permission.WRITE_EXTERNAL_STORAGE">存储空间</string>
     <string name="rc_android.settings.action.MANAGE_OVERLAY_PERMISSION">悬浮窗</string>
@@ -682,6 +706,7 @@
     <string name="rc_dialog_cancel">取消</string>
     <string name="rc_dialog_item_message_copy">复制消息</string>
     <string name="rc_dialog_item_message_delete">删除消息</string>
+    <string name="rc_dialog_item_message_more">更多…</string>
     <string name="rc_dialog_item_message_recall">撤回消息</string>
     <string name="rc_dialog_ok">确定</string>
     <string name="rc_discussion_nt_msg_for_add">"%1$s 邀请了%2$d位成员加入了讨论组"</string>
@@ -698,6 +723,8 @@
     <string name="rc_ext_exit_location_sharing">是否结束位置共享？</string>
     <string name="rc_ext_exit_location_sharing_confirm">结束共享</string>
     <string name="rc_ext_location_permission_failed">您需要在设置里打开定位权限</string>
+    <string name="rc_ext_search">搜索</string>
+    <string name="rc_ext_search_no_result">暂无结果</string>
     <string name="rc_ext_send">发送</string>
     <string name="rc_ext_warning">提示</string>
     <string name="rc_file_not_exist">文件不存在</string>
@@ -709,6 +736,7 @@
     <string name="rc_fr_file_category_title_text">文本</string>
     <string name="rc_fr_file_category_title_video">视频</string>
     <string name="rc_fr_file_list_most_selected_files">您最多只能选择20个文件</string>
+    <string name="rc_fr_file_size_limit">您选择的文件不能超过 %dM </string>
     <string name="rc_fr_loading_file_message">加载中...</string>
     <string name="rc_fr_no_file_message">没有%1$s文件</string>
     <string name="rc_fr_storage_folder_list_no_files">无法读取%1$s中的文件</string>
@@ -730,13 +758,13 @@
     <string name="rc_item_divided_string">、</string>
     <string name="rc_item_etc">等</string>
     <string name="rc_item_group_notification_summary">[群组通知]</string>
-    <string name="rc_item_invitation">%1$s邀请%2$s加入了群组</string>
+    <string name="rc_item_invitation">%1$s邀请%2$s加入群组</string>
     <string name="rc_item_join_group">加入了群组</string>
     <string name="rc_item_quit_groups">退出了群组</string>
     <string name="rc_item_remove_group_after_str">移出了群组</string>
     <string name="rc_item_remove_group_before_str">将</string>
-    <string name="rc_item_remove_group_member">%1$s将%2$s移出了群组</string>
-    <string name="rc_item_remove_self">%1$s被%2$s移出了群组</string>
+    <string name="rc_item_remove_group_member">%1$s将%2$s移出群组</string>
+    <string name="rc_item_remove_self">%1$s被%2$s移出群组</string>
     <string name="rc_item_to_join_group">加入了群组</string>
     <string name="rc_item_you">你</string>
     <string name="rc_join_chatroom_failure">加入聊天室失败</string>
@@ -778,6 +806,7 @@
     <string name="rc_notice_network_unavailable">当前网络不可用，请检查你的网络设置</string>
     <string name="rc_notice_select_one_picture_at_last">请至少选择一张图片</string>
     <string name="rc_notice_tick">该帐号已经在其他设备登录</string>
+    <string name="rc_notification_channel_name">新消息</string>
     <string name="rc_notification_new_msg">%1$s发来了%2$d条消息</string>
     <string name="rc_notification_new_plural_msg">%1$d个联系人发来了%2$d条消息</string>
     <string name="rc_notification_ticker_text">您有了一条新消息</string>
@@ -820,11 +849,11 @@
     <string name="rc_real_time_location_sharing">发起了位置共享</string>
     <string name="rc_real_time_location_summary">我发起了位置共享</string>
     <string name="rc_recall_failed">撤回失败</string>
-    <string name="rc_recalled_a_message">撤回了一条消息</string>
+    <string name="rc_recalled_a_message"> 撤回了一条消息</string>
     <string name="rc_rejected_by_blacklist_prompt">您的消息已经发出，但被对方拒收</string>
     <string name="rc_saturday_format">周六</string>
     <string name="rc_save_picture">保存图片</string>
-    <string name="rc_save_picture_at">图片保存在%s</string>
+    <string name="rc_save_picture_at">图片保存成功</string>
     <string name="rc_search">搜索</string>
     <string name="rc_send_format">发送(%1$s)</string>
     <string name="rc_setting_clear_msg_fail">清空聊天失败</string>
@@ -848,12 +877,14 @@
     <string name="rc_voice_rec">手指上滑，取消发送</string>
     <string name="rc_voice_short">录音时间太短</string>
     <string name="rc_voice_too_long">录制时间超长</string>
+    <string name="rc_voip_add_member">添加成员</string>
     <string name="rc_voip_answer">接听</string>
+    <string name="rc_voip_ask_to_do">主持人请求您%1$s%2$s\n是否接受?</string>
     <string name="rc_voip_audio">语音聊天</string>
     <string name="rc_voip_audio_call_inviting">邀请你进行语音聊天...</string>
     <string name="rc_voip_audio_ended">语音聊天已经结束</string>
     <string name="rc_voip_audio_no_response">语音聊天未接听</string>
-    <string name="rc_voip_call_audio_start_fail">正在音频通话中</string>
+    <string name="rc_voip_call_audio_start_fail">正在进行语音通话，请稍后再试</string>
     <string name="rc_voip_call_busy">忙线中</string>
     <string name="rc_voip_call_connecting">连接中</string>
     <string name="rc_voip_call_hangup">已挂断</string>
@@ -864,17 +895,23 @@
     <string name="rc_voip_call_started">开始通话</string>
     <string name="rc_voip_call_terminalted">通话结束</string>
     <string name="rc_voip_call_time_length">通话时长 </string>
-    <string name="rc_voip_call_video_start_fail">正在视频通话中</string>
+    <string name="rc_voip_call_video_start_fail">正在进行视频通话，请稍后再试</string>
     <string name="rc_voip_call_waiting">正在等待对方接受邀请...</string>
     <string name="rc_voip_camera">摄像头</string>
+    <string name="rc_voip_camera_mic">摄像头和麦克风</string>
+    <string name="rc_voip_cancel">取消</string>
+    <string name="rc_voip_close">关闭</string>
     <string name="rc_voip_cpu_error">很抱歉，该功能暂时不支持您的机型</string>
     <string name="rc_voip_disable_camera">关闭摄像头</string>
     <string name="rc_voip_enable_camera">开启摄像头</string>
     <string name="rc_voip_float_window_not_allowed">请打开悬浮窗权限</string>
+    <string name="rc_voip_hand_up">举手发言</string>
     <string name="rc_voip_handfree">免提</string>
     <string name="rc_voip_hangup">挂断</string>
+    <string name="rc_voip_invite_to_normal">主持人邀请您参与讨论\n是否接受?</string>
     <string name="rc_voip_message_audio">[语音聊天]</string>
     <string name="rc_voip_message_video">[视频聊天]</string>
+    <string name="rc_voip_mic">麦克风</string>
     <string name="rc_voip_mo_cancel">已取消</string>
     <string name="rc_voip_mo_no_response">未接听</string>
     <string name="rc_voip_mo_reject">已拒绝</string>
@@ -883,7 +920,10 @@
     <string name="rc_voip_mt_no_response">对方未接听</string>
     <string name="rc_voip_mt_reject">对方已拒绝</string>
     <string name="rc_voip_mute">静音</string>
-    <string name="rc_voip_occupying">声音通道正被占用，请稍后再试</string>
+    <string name="rc_voip_observer_hint">当前您的身份是观察者，其他人看不见您。\n如需发言请举手。</string>
+    <string name="rc_voip_occupying">声音通道被占用，请稍后再试</string>
+    <string name="rc_voip_ok">确认</string>
+    <string name="rc_voip_open">打开</string>
     <string name="rc_voip_over_limit">您最多只能选择%d人</string>
     <string name="rc_voip_participant_users">群聊成员</string>
     <string name="rc_voip_remote_switched_to_audio">对方已切换到语音聊天</string>
@@ -894,6 +934,8 @@
     <string name="rc_voip_video_call_inviting">邀请你进行视频聊天...</string>
     <string name="rc_voip_video_ended">视频聊天已经结束</string>
     <string name="rc_voip_video_no_response">视频聊天未接听</string>
+    <string name="rc_voip_video_observer">为了保证会议流畅，后续用户只能以观众模式加入，是否继续？</string>
+    <string name="rc_voip_whiteboard">白板</string>
     <string name="rc_waiting">等待中</string>
     <string name="rc_wednesday_format">周三</string>
     <string name="rc_year_format">年</string>
