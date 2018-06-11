@@ -7,9 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import io.rong.imkit.RongExtension;
 import io.rong.imkit.fragment.ConversationFragment;
+import io.rong.imkit.plugin.IPluginModule;
 import io.rong.imkit.widget.adapter.MessageListAdapter;
 
 /**
@@ -26,7 +28,32 @@ public class ChatConversationFragment extends ConversationFragment {
         containerView = (RelativeLayout) super.onCreateView(inflater, container, savedInstanceState);
         extension = (RongExtension) containerView.findViewById(io.rong.imkit.R.id.rc_extension);
         inputEditText = extension.getInputEditText();
+        //extension.setExtensionClickListener
         return containerView;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        //extension.setExtensionClickListener(null);
+    }
+
+    @Override
+    public void onSendToggleClick(View v, String text) {
+        super.onSendToggleClick(v, text);
+        Toast.makeText(getActivity(), "发送", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void onPluginClicked(IPluginModule pluginModule, int position) {
+        super.onPluginClicked(pluginModule, position);
+        Toast.makeText(getActivity(), "plugin被点击", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void onPluginToggleClick(View v, ViewGroup extensionBoard) {
+        super.onPluginToggleClick(v, extensionBoard);
+        Toast.makeText(getActivity(), " + 被点击", Toast.LENGTH_LONG).show();
     }
 
     @Override
