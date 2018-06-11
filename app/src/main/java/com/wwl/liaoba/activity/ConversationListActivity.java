@@ -83,8 +83,8 @@ public class ConversationListActivity extends FragmentActivity implements View.O
 
     public void insertMessage() {
         RedPackageMessage redPackageMessage = RedPackageMessage.obtain("biaoti", "sender", "微信红包sss");
-        TextMessage textMsg = TextMessage.obtain("这是插入的消息" + insertMessageCount);
-        insertMessageCount++;
+        //TextMessage textMsg = TextMessage.obtain("这是插入的消息" + insertMessageCount);
+        //insertMessageCount++;
         long time = System.currentTimeMillis();
 //        RongIM.getInstance().insertOutgoingMessage(Conversation.ConversationType.PRIVATE, "001", Message.SentStatus.SENT, redPackageMessage, time, new RongIMClient.ResultCallback<Message>() {
 //            @Override
