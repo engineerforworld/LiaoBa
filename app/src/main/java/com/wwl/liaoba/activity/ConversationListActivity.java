@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.wwl.liaoba.R;
+import com.wwl.liaoba.message.RedPackageMessage;
 
 import java.util.List;
 
@@ -81,10 +82,10 @@ public class ConversationListActivity extends FragmentActivity implements View.O
     }
 
     public void insertMessage() {
-//        RedPackageMessage redPackageMessage = RedPackageMessage.obtain("biaoti", "sender", "微信红包sss");
-//        TextMessage textMsg = TextMessage.obtain("这是插入的消息" + insertMessageCount);
-//        insertMessageCount++;
-//        long time = System.currentTimeMillis();
+        RedPackageMessage redPackageMessage = RedPackageMessage.obtain("biaoti", "sender", "微信红包sss");
+        TextMessage textMsg = TextMessage.obtain("这是插入的消息" + insertMessageCount);
+        insertMessageCount++;
+        long time = System.currentTimeMillis();
 //        RongIM.getInstance().insertOutgoingMessage(Conversation.ConversationType.PRIVATE, "001", Message.SentStatus.SENT, redPackageMessage, time, new RongIMClient.ResultCallback<Message>() {
 //            @Override
 //            public void onSuccess(Message message) {
@@ -97,25 +98,41 @@ public class ConversationListActivity extends FragmentActivity implements View.O
 //            }
 //        });
 
-
-        ;
-
-        RongIM.getInstance().setConversationNotificationStatus(Conversation.ConversationType.PRIVATE, "003", Conversation.ConversationNotificationStatus.DO_NOT_DISTURB, new RongIMClient.ResultCallback<Conversation.ConversationNotificationStatus>() {
+        Message message = Message.obtain("001", Conversation.ConversationType.PRIVATE,redPackageMessage);
+        RongIM.getInstance().sendMessage(message, null, null, new IRongCallback.ISendMessageCallback() {
             @Override
-            public void onSuccess(Conversation.ConversationNotificationStatus conversationNotificationStatus) {
-                if (conversationNotificationStatus == Conversation.ConversationNotificationStatus.DO_NOT_DISTURB) {
-//                    NToast.shortToast(context, "设置免打扰成功");
-                } else if (conversationNotificationStatus == Conversation.ConversationNotificationStatus.NOTIFY) {
-//                    NToast.shortToast(context, "取消免打扰成功");
-                }
+            public void onAttached(Message message) {
 
             }
 
             @Override
-            public void onError(RongIMClient.ErrorCode errorCode) {
+            public void onSuccess(Message message) {
+
+            }
+
+            @Override
+            public void onError(Message message, RongIMClient.ErrorCode errorCode) {
 
             }
         });
+
+//
+//        RongIM.getInstance().setConversationNotificationStatus(Conversation.ConversationType.PRIVATE, "003", Conversation.ConversationNotificationStatus.DO_NOT_DISTURB, new RongIMClient.ResultCallback<Conversation.ConversationNotificationStatus>() {
+//            @Override
+//            public void onSuccess(Conversation.ConversationNotificationStatus conversationNotificationStatus) {
+//                if (conversationNotificationStatus == Conversation.ConversationNotificationStatus.DO_NOT_DISTURB) {
+////                    NToast.shortToast(context, "设置免打扰成功");
+//                } else if (conversationNotificationStatus == Conversation.ConversationNotificationStatus.NOTIFY) {
+////                    NToast.shortToast(context, "取消免打扰成功");
+//                }
+//
+//            }
+//
+//            @Override
+//            public void onError(RongIMClient.ErrorCode errorCode) {
+//
+//            }
+//        });
     }
 
     public void sendMessage() {

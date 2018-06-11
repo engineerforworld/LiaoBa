@@ -19,10 +19,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/cusconversation/ChatConversationFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/cusconversation/ChatConversationFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/cusconversationlist/ChatConversationListFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/cusconversationlist/ChatConversationListFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/ConversationListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/ConversationListActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_conversation_list.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_conversation_list.xml" />
     </list>
     <ignored path="LiaoBa.iws" />
@@ -55,31 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ChatListFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/fragment/ChatListFragment.java">
+      <file leaf-file-name="rc_item_message.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_message.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConversationListActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/ConversationListActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_conversation_list.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_conversation_list.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="108" column="32" lean-forward="false" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+            <state relative-caret-position="-2193">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,46 +66,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatConversationListFragment.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/cusconversationlist/ChatConversationListFragment.java">
+      <file leaf-file-name="ConversationActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/ConversationActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="259">
+              <caret line="99" column="13" lean-forward="false" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConversationListFragment.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/IMKit/src/main/libs/Rong_IMKit.jar!/io/rong/imkit/fragment/ConversationListFragment.class">
+      <file leaf-file-name="ConversationListActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/ConversationListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="420" column="39" lean-forward="true" selection-start-line="420" selection-start-column="39" selection-end-line="420" selection-end-column="39" />
+            <state relative-caret-position="190">
+              <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatConversationListAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/cusconversationlist/ChatConversationListAdapter.java">
+      <file leaf-file-name="activity_conversation_list.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_conversation_list.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-              <folding>
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LiaoBaAppContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/Utils/LiaoBaAppContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+            <state relative-caret-position="39">
+              <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -6527,7 +6495,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/ConversationActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/SelectConversationActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/ConversationListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/receiver/LiaoBaNotificationReceiver.java" />
         <option value="$PROJECT_DIR$/IMLib/build.gradle" />
         <option value="$PROJECT_DIR$/IMKit/build.gradle" />
@@ -6542,8 +6509,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/application/LiaoBaApp.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/plugin/CusRecallMessageItemProvider.java" />
         <option value="$PROJECT_DIR$/IMKit/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_conversation_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/cusconversationlist/ChatConversationListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/ConversationListActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_conversation_list.xml" />
       </list>
     </option>
   </component>
@@ -6862,7 +6830,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528697795486" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528704099775" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -6909,7 +6877,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528697795486" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528704099775" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -7284,7 +7252,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/ConversationListActivity.java</url>
-          <line>71</line>
+          <line>72</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
@@ -7326,13 +7294,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/ConversationListActivity.java</url>
-          <line>129</line>
+          <line>146</line>
           <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/ConversationListActivity.java</url>
-          <line>138</line>
+          <line>155</line>
           <properties />
           <option name="timeStamp" value="74" />
         </line-breakpoint>
@@ -7390,13 +7358,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/app.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/HMS-SDK-2.4.0.300.aar/19c8dca45c4d5e68c429dff5657f971a/jars/classes.jar!/com/huawei/hms/api/HuaweiApiClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -7621,17 +7582,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_message.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2811">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/cusconversation/ChatConversationFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -7696,14 +7646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/ConversationActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="102" column="50" lean-forward="false" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/CallLib/libs/CallEngine_Blink.jar!/io/rong/rongcall/ICallEngine.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-145">
@@ -7728,34 +7670,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/IMKit/src/main/libs/Rong_IMKit.jar!/io/rong/imkit/fragment/ConversationListFragment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="452" column="36" lean-forward="true" selection-start-line="452" selection-start-column="36" selection-end-line="452" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/cusconversationlist/ChatConversationListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/fragment/ChatListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/ConversationListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/Utils/LiaoBaAppContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/IMKit/src/main/libs/Rong_IMKit.jar!/io/rong/imkit/fragment/ConversationListFragment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="420" column="39" lean-forward="true" selection-start-line="420" selection-start-column="39" selection-end-line="420" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -7771,10 +7705,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_conversation_list.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/Utils/LiaoBaAppContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="108" column="32" lean-forward="false" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMKit/src/main/res/layout/rc_item_message.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2193">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -7782,12 +7724,39 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/cusconversationlist/ChatConversationListFragment.java">
+    <entry file="jar://$PROJECT_DIR$/IMLib/libs/Rong_IMLib.jar!/io/rong/imlib/model/Message.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="215">
+          <caret line="47" column="11" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/ConversationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="99" column="13" lean-forward="false" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wwl/liaoba/activity/ConversationListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_conversation_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>
