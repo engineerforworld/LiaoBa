@@ -12,6 +12,7 @@ import android.widget.Toast;
 import io.rong.imkit.RongExtension;
 import io.rong.imkit.fragment.ConversationFragment;
 import io.rong.imkit.plugin.IPluginModule;
+import io.rong.imkit.widget.AutoRefreshListView;
 import io.rong.imkit.widget.adapter.MessageListAdapter;
 
 /**
@@ -22,12 +23,17 @@ public class ChatConversationFragment extends ConversationFragment {
     private RelativeLayout containerView;
     private RongExtension extension;
     private EditText inputEditText;
+    private View mMsgListView;
+    private AutoRefreshListView mList;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         containerView = (RelativeLayout) super.onCreateView(inflater, container, savedInstanceState);
+        mMsgListView = findViewById(containerView, io.rong.imkit.R.id.rc_layout_msg_list);
         extension = (RongExtension) containerView.findViewById(io.rong.imkit.R.id.rc_extension);
+        mList = findViewById(mMsgListView, io.rong.imkit.R.id.rc_list);
         inputEditText = extension.getInputEditText();
+        inputEditText.setHint("xxx");
         //extension.setExtensionClickListener
         return containerView;
     }

@@ -69,6 +69,15 @@
                 android:gravity="center"
                 android:onClick="onClick"
                 android:text="发送阅后即焚消息" />
+
+            <TextView
+                android:id="@+id/tv_base64"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="base64转图片" />
         </LinearLayout>
     </HorizontalScrollView>
 

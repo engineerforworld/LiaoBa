@@ -35,9 +35,14 @@ public class ChatConversationListFragment extends ConversationListFragment {
                         }
                     }
                     //根据条件删除指定的会话
-                    if (resultConversations.size() > 0) {
-                        resultConversations.remove(0);
+                    if (resultConversations != null) {
+                        for (int i = 0; i < resultConversations.size(); i++) {
+                            if (conversations.get(i).getConversationType().equals(Conversation.ConversationType.GROUP)) {
+                                resultConversations.remove(i);
+                            }
+                        }
                     }
+
                     callback.onResult(resultConversations);
                 }
             }

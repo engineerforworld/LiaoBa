@@ -27,6 +27,11 @@
         <meta-data
             android:name="RONG_CLOUD_APP_KEY"
             android:value="sfci50a7s456i" />
+        <!--
+            <meta-data
+            android:name="RONG_CLOUD_APP_KEY"
+            android:value="lmxuhwagl0yjd" />
+        -->
 
         <service
             android:name="io.rong.imlib.ipc.RongService"

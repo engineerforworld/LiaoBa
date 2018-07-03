@@ -23,7 +23,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/build/intermediates/classes/debug" />
     <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/debug" />
     <exclude-output />
@@ -104,11 +104,10 @@
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="__local_aars__:/Users/wangwenliang/AndroidStudioProjects/LiaoBa/RedPacket/libs/jrmfry-1.5.1.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.google.code.gson:gson:2.2.4@jar" level="project" />
     <orderEntry type="library" name="__local_aars__:/Users/wangwenliang/AndroidStudioProjects/LiaoBa/RedPacket/libs/alipaySingle-20170510.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="android-android-23" level="project" />
   </component>
 </module>

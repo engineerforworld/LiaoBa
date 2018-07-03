@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.wwl.liaoba.R;
+import com.wwl.liaoba.Utils.Constants;
 import com.wwl.liaoba.message.RedPackageMessage;
 
 import java.util.List;
@@ -16,10 +17,12 @@ import java.util.List;
 import io.rong.imkit.RongIM;
 import io.rong.imkit.fragment.ConversationListFragment;
 import io.rong.imkit.manager.IUnReadMessageObserver;
+import io.rong.imkit.userInfoCache.RongUserInfoManager;
 import io.rong.imlib.IRongCallback;
 import io.rong.imlib.RongIMClient;
 import io.rong.imlib.model.Conversation;
 import io.rong.imlib.model.Message;
+import io.rong.imlib.model.UserInfo;
 import io.rong.message.InformationNotificationMessage;
 import io.rong.message.TextMessage;
 
@@ -60,11 +63,72 @@ public class ConversationListActivity extends FragmentActivity implements View.O
                 Intent intent = new Intent(this, SelectConversationActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.tv_message_list:
+                getMessageList();
+                break;
+            case R.id.tv_rmeote_message_list:
+                getRemoteMessageList();
+                break;
             default:
                 break;
         }
 
     }
+
+    private void getMessageList() {
+        Log.i("www", "getMessageList()");
+        UserInfo userInfo = RongUserInfoManager.getInstance().getUserInfo(RongIMClient.getInstance().getCurrentUserId());
+        String targetId = null;
+//        if (Constants.userid_6.equals(userInfo.getUserId())) {
+//            targetId = Constants.userid_7;
+//        } else {
+//            targetId = Constants.userid_6;
+//        }
+        targetId = Constants.userid_6;
+        RongIMClient.getInstance().getHistoryMessages(Conversation.ConversationType.PRIVATE, targetId, -1, 30, new RongIMClient.ResultCallback<List<io.rong.imlib.model.Message>>() {
+            @Override
+            public void onSuccess(List<io.rong.imlib.model.Message> messages) {
+                if (messages != null) {
+                    for (int i = 0; i < messages.size(); i++) {
+                        Log.i("www", "SenderUserI:" + messages.get(i).getSenderUserId() + "----" + "TargetId" + messages.get(i).getTargetId());
+                    }
+                }
+
+            }
+
+            @Override
+            public void onError(RongIMClient.ErrorCode e) {
+            }
+        });
+    }
+
+    private void getRemoteMessageList() {
+        Log.i("www", "getRemoteMessageList()");
+        UserInfo userInfo = RongUserInfoManager.getInstance().getUserInfo(RongIMClient.getInstance().getCurrentUserId());
+        String targetId = null;
+//        if (Constants.userid_6.equals(userInfo.getUserId())) {
+//            targetId = Constants.userid_7;
+//        } else {
+//            targetId = Constants.userid_6;
+//        }
+        targetId = Constants.userid_6;
+        RongIMClient.getInstance().getRemoteHistoryMessages(Conversation.ConversationType.PRIVATE, targetId, 0, 10, new RongIMClient.ResultCallback<List<io.rong.imlib.model.Message>>() {
+            @Override
+            public void onSuccess(List<io.rong.imlib.model.Message> messages) {
+                if (messages != null) {
+                    for (int i = 0; i < messages.size(); i++) {
+                        Log.i("www", "SenderUserI:" + messages.get(i).getSenderUserId() + "----" + "TargetId" + messages.get(i).getTargetId());
+                    }
+                }
+
+            }
+
+            @Override
+            public void onError(RongIMClient.ErrorCode e) {
+            }
+        });
+    }
+
 
     public void getConversation() {
         RongIMClient.getInstance().getConversationListByPage(new RongIMClient.ResultCallback<List<Conversation>>() {
@@ -98,7 +162,7 @@ public class ConversationListActivity extends FragmentActivity implements View.O
 //            }
 //        });
 
-        Message message = Message.obtain("001", Conversation.ConversationType.PRIVATE,redPackageMessage);
+        Message message = Message.obtain("001", Conversation.ConversationType.PRIVATE, redPackageMessage);
         RongIM.getInstance().sendMessage(message, null, null, new IRongCallback.ISendMessageCallback() {
             @Override
             public void onAttached(Message message) {

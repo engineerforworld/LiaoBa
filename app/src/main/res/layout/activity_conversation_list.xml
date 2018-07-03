@@ -98,6 +98,24 @@
                 android:gravity="center"
                 android:onClick="onClick"
                 android:text="获取会话" />
+
+            <TextView
+                android:id="@+id/tv_message_list"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="获取历史消息" />
+
+            <TextView
+                android:id="@+id/tv_rmeote_message_list"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="获取历史消息X" />
         </LinearLayout>
     </HorizontalScrollView>
 

@@ -55,7 +55,7 @@ dependencies {
     compile(name: 'HMS-SDK-2.4.0.300', ext: 'aar')
     compile project(':CallKit')
     compile project(':RedPacket')
-    compile project(':sticker')
+    //compile project(':sticker')
 }
 repositories { flatDir { dirs 'aars' } }
 allprojects {

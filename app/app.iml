@@ -119,8 +119,6 @@
     <orderEntry type="library" scope="TEST" name="com.android.support.test:exposed-instrumentation-api-publish-0.5" level="project" />
     <orderEntry type="library" name="com.android.support:animated-vector-drawable-27.1.1" level="project" />
     <orderEntry type="library" name="com.android.support:appcompat-v7-27.1.1" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/wangwenliang/AndroidStudioProjects/LiaoBa/sticker/libs/BQMMRongCloudPlugin-v2.0.1.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:recyclerview-v7-26.0.0" level="project" />
     <orderEntry type="library" name="__local_aars__:/Users/wangwenliang/AndroidStudioProjects/LiaoBa/RedPacket/libs/jrmfry-1.5.1.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="__local_aars__:/Users/wangwenliang/AndroidStudioProjects/LiaoBa/IMLib/libs/Rong_IMLib.jar:unspecified@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="junit:junit:4.12@jar" level="project" />
@@ -166,6 +164,5 @@
     <orderEntry type="module" module-name="CallLib" />
     <orderEntry type="module" module-name="IMLib" />
     <orderEntry type="module" module-name="IMKit" />
-    <orderEntry type="module" module-name="sticker" />
   </component>
 </module>

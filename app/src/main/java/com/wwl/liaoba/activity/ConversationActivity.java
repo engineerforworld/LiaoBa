@@ -84,9 +84,16 @@ public class ConversationActivity extends FragmentActivity {
             case R.id.tv_yuehoujif:
                 sendBurnDownMessage();
                 break;
+            case R.id.tv_base64:
+                convertBase64ToImage();
+                break;
             default:
                 break;
         }
+
+    }
+
+    private void convertBase64ToImage() {
 
     }
 
@@ -152,12 +159,23 @@ public class ConversationActivity extends FragmentActivity {
     }
 
     public void getHistotyMessage() {
-        RongIMClient.getInstance().getHistoryMessages(Conversation.ConversationType.CUSTOMER_SERVICE, "001", "www", 1, 20, new RongIMClient.ResultCallback<List<Message>>() {
+//        RongIMClient.getInstance().getHistoryMessages(Conversation.ConversationType.CUSTOMER_SERVICE, "001", "www", 1, 20, new RongIMClient.ResultCallback<List<Message>>() {
+//            @Override
+//            public void onSuccess(List<Message> messages) {
+//                for (int j = 0; j < messages.size(); j++) {
+//                    messages.get(j).getMessageDirection();
+//                }
+//
+//            }
+//
+//            @Override
+//            public void onError(RongIMClient.ErrorCode errorCode) {
+//
+//            }
+//        });
+        RongIMClient.getInstance().getRemoteHistoryMessages(Conversation.ConversationType.PRIVATE, "003", 0, 40, new RongIMClient.ResultCallback<List<Message>>() {
             @Override
             public void onSuccess(List<Message> messages) {
-                for (int j = 0; j < messages.size(); j++) {
-                    messages.get(j).getMessageDirection();
-                }
 
             }
 

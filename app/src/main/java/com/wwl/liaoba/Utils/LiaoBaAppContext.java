@@ -19,6 +19,7 @@ import io.rong.imkit.RongExtensionManager;
 import io.rong.imkit.RongIM;
 import io.rong.imkit.model.GroupUserInfo;
 import io.rong.imkit.model.UIConversation;
+import io.rong.imlib.IRongCallback;
 import io.rong.imlib.RongIMClient;
 import io.rong.imlib.model.Conversation;
 import io.rong.imlib.model.Group;
@@ -201,6 +202,7 @@ public class LiaoBaAppContext implements
 
     @Override
     public boolean onUserPortraitLongClick(Context context, Conversation.ConversationType conversationType, UserInfo userInfo, String s) {
+
         return false;
     }
 
@@ -215,6 +217,13 @@ public class LiaoBaAppContext implements
 //            Message message1 = Message.obtain("001", Conversation.ConversationType.PRIVATE, message.getContent());
 //            RongIM.getInstance().sendLocationMessage(message1, null, null, null);
 //        }
+        //转发测试代码
+        if (message.getContent() instanceof ImageMessage) {
+            ImageMessage fmessage = (ImageMessage) message.getContent();
+            Message message1 = Message.obtain("003", Conversation.ConversationType.PRIVATE, message.getContent());
+            RongIM.getInstance().sendMessage(message, null, null, (IRongCallback.ISendMediaMessageCallback) null);
+        }
+
         return false;
     }
 

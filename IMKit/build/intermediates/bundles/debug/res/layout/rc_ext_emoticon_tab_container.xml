@@ -22,7 +22,8 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            >
 
             <LinearLayout
                 android:id="@+id/rc_emotion_tab_bar"
@@ -30,7 +31,8 @@
                 android:layout_height="wrap_content"
                 android:background="#ffffff"
                 android:gravity="center_vertical"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/rc_emoticon_tab_add"
